@@ -1,0 +1,47 @@
+{
+  "date": "2026-11-27",
+  "source_git_commit": "7ba256ae49bbf10c440777e57f48d8741b57ed23",
+  "github_source_recovery_commit": "e1e03a888312965a29f9932d3b90c1344e46c16e",
+  "source_files": 697,
+  "source_bytes": 132910616,
+  "zip_crc": "passed",
+  "node_regression": {
+    "command": "node --test scripts/checks/*.mjs",
+    "passed": 20,
+    "failed": 0
+  },
+  "syntax": {
+    "js_and_mjs_files_passed": 101,
+    "inline_js_scripts_passed": 3,
+    "json_import_maps_passed": 1
+  },
+  "generated_game_html_matches_source": true,
+  "asset_structural_checks": {
+    "counts": {
+      "json": 35,
+      "images": 390,
+      "mp4_container_headers": 4,
+      "glb": 14,
+      "wasm": 1
+    },
+    "errors": []
+  },
+  "fresh_github_clone": {
+    "source_commit": "e1e03a888312965a29f9932d3b90c1344e46c16e",
+    "source_files_verified_sha256": 697,
+    "missing_or_changed": [],
+    "original_history_preserved": true,
+    "original_readme_blob": "e542d115449dddeedcdb1bbbbf19368d63031c6c",
+    "git_fsck": {
+      "exit_code": 0,
+      "output": ""
+    }
+  },
+  "limits": [
+    "No dependency reinstall or full framework rebuild",
+    "No physical iPhone or browser playthrough",
+    "No authenticated production cloud-save round-trip",
+    "Media headers and image structure checked; audio/video playback not checked"
+  ],
+  "website_republished": false
+}
