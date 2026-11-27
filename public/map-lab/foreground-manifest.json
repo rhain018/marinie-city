@@ -1,0 +1,218 @@
+{
+  "sourceAsset": "assets/85831fd94f7e47.webp",
+  "worldSize": [
+    1536,
+    1024
+  ],
+  "sourcePixelSize": [
+    3072,
+    2048
+  ],
+  "status": "manual draft, runtime preview; subject to visual and walking tests",
+  "objects": [
+    {
+      "name": "seafood_awning",
+      "polygon": [
+        [
+          274,
+          489
+        ],
+        [
+          285,
+          480
+        ],
+        [
+          421,
+          480
+        ],
+        [
+          432,
+          490
+        ],
+        [
+          432,
+          556
+        ],
+        [
+          274,
+          556
+        ]
+      ],
+      "base": 552,
+      "category": "shop_front",
+      "x": 274,
+      "y": 480,
+      "w": 158,
+      "h": 76,
+      "src": "assets/foreground-hd-seafood_awning.png"
+    },
+    {
+      "name": "market_awning",
+      "polygon": [
+        [
+          1075,
+          340
+        ],
+        [
+          1093,
+          332
+        ],
+        [
+          1275,
+          332
+        ],
+        [
+          1294,
+          340
+        ],
+        [
+          1294,
+          424
+        ],
+        [
+          1075,
+          424
+        ]
+      ],
+      "base": 422,
+      "category": "shop_front",
+      "x": 1075,
+      "y": 332,
+      "w": 219,
+      "h": 92,
+      "src": "assets/foreground-hd-market_awning.png"
+    },
+    {
+      "name": "game_shop_front",
+      "polygon": [
+        [
+          903,
+          478
+        ],
+        [
+          1074,
+          478
+        ],
+        [
+          1074,
+          631
+        ],
+        [
+          903,
+          631
+        ]
+      ],
+      "base": 629,
+      "category": "shop_front",
+      "x": 903,
+      "y": 478,
+      "w": 171,
+      "h": 153,
+      "src": "assets/foreground-hd-game_shop_front.png"
+    },
+    {
+      "name": "blue_dock_roof",
+      "polygon": [
+        [
+          831,
+          765
+        ],
+        [
+          886,
+          724
+        ],
+        [
+          954,
+          765
+        ],
+        [
+          954,
+          862
+        ],
+        [
+          831,
+          862
+        ]
+      ],
+      "base": 863,
+      "category": "roof",
+      "x": 831,
+      "y": 724,
+      "w": 123,
+      "h": 138,
+      "src": "assets/foreground-hd-blue_dock_roof.png"
+    },
+    {
+      "name": "west_umbrella_red",
+      "polygon": [
+        [
+          261,
+          656
+        ],
+        [
+          274,
+          649
+        ],
+        [
+          289,
+          647
+        ],
+        [
+          304,
+          655
+        ],
+        [
+          313,
+          673
+        ],
+        [
+          261,
+          673
+        ]
+      ],
+      "base": 675,
+      "category": "canopy",
+      "x": 261,
+      "y": 647,
+      "w": 52,
+      "h": 26,
+      "src": "assets/foreground-hd-west_umbrella_red.png"
+    },
+    {
+      "name": "west_umbrella_blue",
+      "polygon": [
+        [
+          332,
+          658
+        ],
+        [
+          342,
+          650
+        ],
+        [
+          358,
+          648
+        ],
+        [
+          375,
+          658
+        ],
+        [
+          385,
+          676
+        ],
+        [
+          332,
+          676
+        ]
+      ],
+      "base": 678,
+      "category": "canopy",
+      "x": 332,
+      "y": 648,
+      "w": 53,
+      "h": 28,
+      "src": "assets/foreground-hd-west_umbrella_blue.png"
+    }
+  ]
+}

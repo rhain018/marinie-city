@@ -1,0 +1,32 @@
+{
+  "title": "Bakunawa: Tideborn — Combat Dialogue",
+  "presentation": "Timed cinematic subtitles over the active battle scene; no prerecorded voice is implied.",
+  "events": [
+    {"event": "bolt", "speaker": "Yhannie", "line": "Arcane Pulse!", "durationMs": 1450},
+    {"event": "charge", "speaker": "Yhannie", "line": "Starlight, gather!", "durationMs": 1450},
+    {"event": "wave", "speaker": "Yhannie", "line": "Tide, turn aside!", "durationMs": 1450},
+    {"event": "crescent", "speaker": "Yhannie", "line": "By the moonlit current!", "durationMs": 1450},
+    {"event": "shield", "speaker": "Yhannie", "line": "Aegis, rise!", "durationMs": 1450},
+    {"event": "dodge", "speaker": "Yhannie", "line": "Not this time!", "durationMs": 1450},
+    {"event": "ultimate", "speaker": "Yhannie", "line": "Astral Judgment—fall!", "durationMs": 2600},
+    {"event": "victoryStart", "speaker": "Yhannie", "line": "Bakunawa! Protektahan mo ang dagat—hindi angkinin!", "durationMs": 2100},
+    {"event": "victoryStrike", "speaker": "Yhannie", "line": "ASTRAL JUDGMENT!", "durationMs": 1900},
+    {"event": "bossFallen", "speaker": "Bakunawa", "line": "The tide... remembers.", "durationMs": 2200},
+    {"event": "tell:burst", "speaker": "Bakunawa", "line": "Hear the deep answer your name!", "durationMs": 2200},
+    {"event": "tell:wave", "speaker": "Bakunawa", "line": "The tide will take the pier!", "durationMs": 2200},
+    {"event": "tell:vortex", "speaker": "Bakunawa", "line": "Sink into the turning deep!", "durationMs": 2200},
+    {"event": "tell:lightning", "speaker": "Bakunawa", "line": "The storm obeys me!", "durationMs": 2200},
+    {"event": "tell:tail", "speaker": "Bakunawa", "line": "Broken wood, broken will!", "durationMs": 2200},
+    {"event": "tell:abyss", "speaker": "Bakunawa", "line": "The moon is swallowed. Drown!", "durationMs": 2200},
+    {"event": "enrage:phase1", "speaker": "Bakunawa", "line": "Raging tides, rise!", "durationMs": 2400},
+    {"event": "enrage:phase2", "speaker": "Bakunawa", "line": "Abyssal Fury—begins!", "durationMs": 2400},
+    {"event": "won", "speaker": "Yhannie", "line": "Marinie City is safe. The sea can rest now.", "durationMs": 2800},
+    {"event": "lost", "speaker": "Bakunawa", "line": "The deep claims another!", "durationMs": 2400}
+  ],
+  "victorySequence": [
+    {"timeSeconds": 0, "visual": "Yhannie charges a celestial spell while Bakunawa recoils above the water."},
+    {"timeSeconds": 1.58, "visual": "A layered violet-cyan beam hits Bakunawa; impact shake and bright water reflections fire."},
+    {"timeSeconds": 3.2, "visual": "Bakunawa answers with a final line and slowly sinks as expanding magic rings and water motes fade."},
+    {"timeSeconds": 5.65, "visual": "Victory result panel appears after the boss animation completes."}
+  ]
+}

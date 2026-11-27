@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <title>Sprite2Model · Marinie City</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <header class="lab-header">
+    <div>
+      <p class="place">MARINIE CITY · SEAFOOD WHARF</p>
+      <h1>Sprite2Model</h1>
+    </div>
+    <a class="button quiet" id="game-link" href="/" hidden>Marinie City</a>
+    <a class="button quiet" href="./catalog.json" download="Seafood-Wharf-Object-Inventory.json">Export inventory</a>
+  </header>
+  <main>
+    <aside class="inventory" aria-labelledby="inventory-title">
+      <h2 id="inventory-title">Wharf objects</h2>
+      <p class="muted" id="inventory-count"></p>
+      <div class="filters">
+        <input type="search" id="search" placeholder="Find an object" aria-label="Find an object">
+        <select id="filter" aria-label="Filter by status">
+          <option value="">All objects</option>
+          <option value="draft">Draft models</option>
+          <option value="needs-sprite">Needs a sprite</option>
+          <option value="geometry">Scene meshes</option>
+          <option value="animated">Animated layers</option>
+        </select>
+      </div>
+      <ul id="objects"></ul>
+    </aside>
+    <section class="workbench" aria-labelledby="object-name">
+      <div class="object-header">
+        <div>
+          <p id="object-area" class="place">SEAFOOD WHARF</p>
+          <h2 id="object-name">Loading objects…</h2>
+        </div>
+        <label class="upload">Open a PNG <input id="file" type="file" accept=".png,image/png"></label>
+      </div>
+      <p class="note" id="object-note"></p>
+      <p class="muted location" id="object-position"></p>
+      <div class="previews" id="previews" hidden>
+        <figure>
+          <figcaption>Sprite</figcaption>
+          <div class="art-box"><img id="sprite" alt="Selected source sprite"></div>
+        </figure>
+        <figure>
+          <figcaption>Model from four sides</figcaption>
+          <div class="art-box" id="model-box">
+            <img id="preview" alt="Four views of the current model" hidden>
+            <span id="preview-placeholder">Generate a model to preview it.</span>
+          </div>
+        </figure>
+      </div>
+      <p id="report" class="muted model-report" hidden></p>
+      <div class="settings" id="settings" hidden>
+        <label>Reading <select id="reading">
+          <option value="auto">Auto</option><option value="box">Box</option>
+          <option value="round">Round</option><option value="wall">Wall</option>
+          <option value="cutout">Cut-out</option><option value="hull">Hull</option>
+          <option value="outfit">Four-view outfit</option><option value="item">Flat item / sword</option>
+        </select></label>
+        <label>Projection <select id="projection">
+          <option value="iso">2:1 isometric</option><option value="tibia">Oblique</option>
+        </select></label>
+        <label id="frame-field" hidden>Outfit row <input id="frame" type="number" min="0" max="63" value="0"></label>
+        <label class="toggle"><input type="checkbox" id="outline" checked> Keep outline</label>
+      </div>
+      <div class="actions">
+        <button type="button" id="generate" hidden>Generate GLB</button>
+        <button type="button" class="quiet" id="cancel" hidden>Cancel</button>
+        <a class="button quiet" id="download-glb" download hidden>Download GLB</a>
+        <a class="button quiet" id="download-png" download hidden>Download sprite</a>
+      </div>
+      <p class="status" id="status" role="status"></p>
+    </section>
+  </main>
+  <footer><a href="./vendor/SPRITE2MODEL-LICENSE" target="_blank" rel="noopener">Sprite2Model · MIT</a> · Browser-side conversion</footer>
+  <script src="./app.mjs" type="module"></script>
+</body>
+</html>

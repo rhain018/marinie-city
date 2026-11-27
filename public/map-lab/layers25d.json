@@ -1,0 +1,179 @@
+{
+  "source": "Original playable world image (3072x2048), 2x relative to 1536x1024 world",
+  "approach": "pixel-aligned source artwork overlay, not synthetic 3D mesh or automated segmentation",
+  "collisionModified": false,
+  "gameplayModified": false,
+  "layers": [
+    {
+      "name": "seafood_awning_hd",
+      "rect": [
+        258,
+        485,
+        400,
+        561
+      ],
+      "base": 563,
+      "poly": [
+        [
+          267,
+          513
+        ],
+        [
+          379,
+          504
+        ],
+        [
+          397,
+          519
+        ],
+        [
+          397,
+          557
+        ],
+        [
+          269,
+          557
+        ],
+        [
+          257,
+          541
+        ]
+      ],
+      "src": "assets/layer25d-seafood_awning_hd.png",
+      "x": 258,
+      "y": 485,
+      "w": 142,
+      "h": 76
+    },
+    {
+      "name": "market_awning_hd",
+      "rect": [
+        1073,
+        337,
+        1290,
+        414
+      ],
+      "base": 415,
+      "poly": [
+        [
+          1082,
+          358
+        ],
+        [
+          1274,
+          354
+        ],
+        [
+          1288,
+          377
+        ],
+        [
+          1288,
+          408
+        ],
+        [
+          1076,
+          408
+        ],
+        [
+          1073,
+          377
+        ]
+      ],
+      "src": "assets/layer25d-market_awning_hd.png",
+      "x": 1073,
+      "y": 337,
+      "w": 217,
+      "h": 77
+    },
+    {
+      "name": "game_facade_hd",
+      "rect": [
+        886,
+        530,
+        1045,
+        613
+      ],
+      "base": 617,
+      "poly": [
+        [
+          902,
+          552
+        ],
+        [
+          1030,
+          548
+        ],
+        [
+          1042,
+          559
+        ],
+        [
+          1041,
+          599
+        ],
+        [
+          890,
+          599
+        ],
+        [
+          886,
+          565
+        ]
+      ],
+      "src": "assets/layer25d-game_facade_hd.png",
+      "x": 886,
+      "y": 530,
+      "w": 159,
+      "h": 83
+    },
+    {
+      "name": "city_hall_portico_hd",
+      "rect": [
+        571,
+        182,
+        750,
+        258
+      ],
+      "base": 263,
+      "poly": [
+        [
+          591,
+          194
+        ],
+        [
+          734,
+          193
+        ],
+        [
+          748,
+          211
+        ],
+        [
+          748,
+          249
+        ],
+        [
+          578,
+          249
+        ],
+        [
+          571,
+          211
+        ]
+      ],
+      "src": "assets/layer25d-city_hall_portico_hd.png",
+      "x": 571,
+      "y": 182,
+      "w": 179,
+      "h": 76
+    }
+  ],
+  "disable": "Add ?layers25d=off to game URL",
+  "notes": [
+    "Masked shapes are provisional; silhouettes are not mathematically exact object contours.",
+    "Underlying original ground map remains unchanged, so occlusion is additive.",
+    "Existing Y-sort and lighting remain authoritative.",
+    "Generated concept art is intentionally not used as ground layer."
+  ]
+}

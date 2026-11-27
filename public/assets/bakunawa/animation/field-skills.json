@@ -1,0 +1,49 @@
+{
+  "version": 1,
+  "referenceSize": [1536, 864],
+  "atlas": {
+    "file": "field-effects.webp",
+    "cell": 320,
+    "columns": 3,
+    "rows": 2,
+    "tiles": {
+      "crimsonCrescent": 0,
+      "dashRibbon": 1,
+      "cyanSeal": 2,
+      "nova": 3,
+      "forkedBolt": 4,
+      "oceanSplash": 5
+    }
+  },
+  "clips": {
+    "crimsonDash": {
+      "hero": "loki",
+      "kind": "charge",
+      "frameBudget": [48, 64],
+      "markers": { "anticipation": "charge", "active": "launch", "impact": "hit", "miss": "whiff", "cancel": ["dodge", "hurt"] },
+      "poseCells": { "anticipation": 1, "active": 5, "release": 3, "recovery": 4 },
+      "recovery": 0.49
+    },
+    "burstNova": {
+      "hero": "yhannie",
+      "kind": "charge",
+      "frameBudget": [48, 64],
+      "markers": { "anticipation": "charge", "active": "launch", "impact": "hit", "cancel": ["dodge", "hurt"] },
+      "poseCells": { "anticipation": 2, "active": 3, "release": 3, "recovery": 4 },
+      "recovery": 0.56
+    },
+    "stormfangLightning": {
+      "hero": "bakunawa",
+      "kind": "lightning",
+      "frameBudget": [64, 96],
+      "markers": { "anticipation": "tell", "active": "impact", "impact": "impact" },
+      "recovery": 0.54
+    }
+  },
+  "curves": {
+    "gather": [[0, 0.08, 0.54], [0.21, 0.56, 0.8], [0.71, 0.88, 1.03], [1, 1, 1.22]],
+    "slash": [[0, 0.91, 0.82], [0.12, 1, 1.07], [0.34, 0.86, 1.2], [0.69, 0.37, 1.3], [1, 0, 1.36]],
+    "bloom": [[0, 1, 0.52], [0.14, 1, 0.86], [0.33, 0.88, 1.08], [0.72, 0.35, 1.26], [1, 0, 1.41]],
+    "lightning": [[0, 1, 0.83], [0.12, 1, 1], [0.26, 0.39, 1.01], [0.42, 0.65, 1.06], [0.76, 0.12, 1.14], [1, 0, 1.17]]
+  }
+}

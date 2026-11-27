@@ -1,0 +1,1225 @@
+{
+  "scene": "Seafood Wharf 2.5D Test",
+  "coordinateSpace": "Marinie City 1536 × 864 map pixels, with scene elevations in 3D units",
+  "converter": {
+    "project": "Coldensjo/sprite2model",
+    "commit": "b8bb34c8604fff256229429a6bf7531293f002e1",
+    "version": "0.1.0"
+  },
+  "entries": [
+    {
+      "id": "red-umbrella",
+      "name": "Red umbrella canopy",
+      "area": "Boardwalk",
+      "bounds": [
+        264,
+        575,
+        56,
+        36
+      ],
+      "note": "The canopy has an isolated sprite. Its pole and café furniture have separate footprints.",
+      "state": "draft",
+      "options": {
+        "projection": "iso",
+        "reading": "round",
+        "keepOutline": true
+      },
+      "files": {
+        "sprite": "models/red-umbrella.png",
+        "model": "models/red-umbrella.glb",
+        "preview": "models/red-umbrella.preview.png"
+      },
+      "report": {
+        "width": 60,
+        "height": 40,
+        "voxels": 10915,
+        "extra": 31,
+        "covered": 94,
+        "size": [
+          1.3333333333333333,
+          0.4,
+          1.2666666666666666
+        ],
+        "triangles": 1712,
+        "reading": "round",
+        "centre": {
+          "X": 30,
+          "Y": 25
+        },
+        "scores": [
+          {
+            "reading": "round",
+            "covered": 94
+          }
+        ]
+      }
+    },
+    {
+      "id": "blue-umbrella",
+      "name": "Blue umbrella canopy",
+      "area": "Boardwalk",
+      "bounds": [
+        328,
+        574,
+        56,
+        38
+      ],
+      "note": "The canopy has an isolated sprite. Its pole and café furniture have separate footprints.",
+      "state": "draft",
+      "options": {
+        "projection": "iso",
+        "reading": "round",
+        "keepOutline": true
+      },
+      "files": {
+        "sprite": "models/blue-umbrella.png",
+        "model": "models/blue-umbrella.glb",
+        "preview": "models/blue-umbrella.preview.png"
+      },
+      "report": {
+        "width": 60,
+        "height": 42,
+        "voxels": 13169,
+        "extra": 33,
+        "covered": 94,
+        "size": [
+          1.3333333333333333,
+          0.5666666666666667,
+          1.2
+        ],
+        "triangles": 2246,
+        "reading": "round",
+        "centre": {
+          "X": 30,
+          "Y": 27
+        },
+        "scores": [
+          {
+            "reading": "round",
+            "covered": 94
+          }
+        ]
+      }
+    },
+    {
+      "id": "seafood-sign",
+      "name": "Seafood fish sign",
+      "area": "Promenade",
+      "bounds": [
+        282,
+        395,
+        126,
+        68
+      ],
+      "note": "The lettering and fish come directly from the painted shop front. Fit it as a wall-mounted sign.",
+      "state": "draft",
+      "options": {
+        "projection": "iso",
+        "reading": "cutout",
+        "keepOutline": true
+      },
+      "files": {
+        "sprite": "models/seafood-sign.png",
+        "model": "models/seafood-sign.glb",
+        "preview": "models/seafood-sign.preview.png"
+      },
+      "report": {
+        "width": 130,
+        "height": 72,
+        "voxels": 37125,
+        "extra": 0,
+        "covered": 100,
+        "size": [
+          1.3846153846153846,
+          0.6000000000000001,
+          1.3692307692307693
+        ],
+        "triangles": 6158,
+        "reading": "cutout",
+        "centre": {
+          "X": 65,
+          "Y": 40
+        },
+        "scores": [
+          {
+            "reading": "cutout",
+            "covered": 100
+          }
+        ]
+      }
+    },
+    {
+      "id": "seafood-awning",
+      "name": "Seafood striped awning",
+      "area": "Promenade",
+      "bounds": [
+        272,
+        461,
+        157,
+        32
+      ],
+      "note": "The canopy is a single painted strip. Add brackets separately when fitting it to a building.",
+      "state": "draft",
+      "options": {
+        "projection": "iso",
+        "reading": "cutout",
+        "keepOutline": true
+      },
+      "files": {
+        "sprite": "models/seafood-awning.png",
+        "model": "models/seafood-awning.glb",
+        "preview": "models/seafood-awning.preview.png"
+      },
+      "report": {
+        "width": 160,
+        "height": 36,
+        "voxels": 4574,
+        "extra": 0,
+        "covered": 100,
+        "size": [
+          1.3,
+          0.0125,
+          1.3
+        ],
+        "triangles": 1228,
+        "reading": "cutout",
+        "centre": {
+          "X": 80,
+          "Y": -4
+        },
+        "scores": [
+          {
+            "reading": "cutout",
+            "covered": 100
+          }
+        ]
+      }
+    },
+    {
+      "id": "anchor-banner",
+      "name": "Blue anchor banner",
+      "area": "Boardwalk",
+      "bounds": [
+        200,
+        543,
+        27,
+        38
+      ],
+      "note": "The banner is isolated from its pole. Its back color is inferred from the visible side.",
+      "state": "draft",
+      "options": {
+        "projection": "iso",
+        "reading": "cutout",
+        "keepOutline": true
+      },
+      "files": {
+        "sprite": "models/anchor-banner.png",
+        "model": "models/anchor-banner.glb",
+        "preview": "models/anchor-banner.preview.png"
+      },
+      "report": {
+        "width": 31,
+        "height": 42,
+        "voxels": 3460,
+        "extra": 0,
+        "covered": 100,
+        "size": [
+          1.032258064516129,
+          2,
+          1.032258064516129
+        ],
+        "triangles": 1104,
+        "reading": "cutout",
+        "centre": {
+          "X": 15,
+          "Y": 35
+        },
+        "scores": [
+          {
+            "reading": "cutout",
+            "covered": 100
+          }
+        ]
+      }
+    },
+    {
+      "id": "red-dock-cabinet",
+      "name": "Red vending cabinet",
+      "area": "Boardwalk",
+      "bounds": [
+        414,
+        539,
+        37,
+        69
+      ],
+      "note": "The visible front and side establish the box shape. Review the depth and rear face.",
+      "state": "draft",
+      "options": {
+        "projection": "iso",
+        "reading": "box",
+        "keepOutline": true
+      },
+      "files": {
+        "sprite": "models/red-dock-cabinet.png",
+        "model": "models/red-dock-cabinet.glb",
+        "preview": "models/red-dock-cabinet.preview.png"
+      },
+      "report": {
+        "width": 41,
+        "height": 73,
+        "voxels": 13910,
+        "extra": 226,
+        "covered": 82,
+        "size": [
+          1.4146341463414636,
+          2.5365853658536586,
+          1.4146341463414636
+        ],
+        "triangles": 384,
+        "reading": "box",
+        "centre": {
+          "X": 20,
+          "Y": 63
+        },
+        "scores": [
+          {
+            "reading": "box",
+            "covered": 82
+          }
+        ]
+      }
+    },
+    {
+      "id": "barrel-stool",
+      "name": "Small rope barrel",
+      "area": "Boardwalk",
+      "bounds": [
+        392,
+        599,
+        24,
+        36
+      ],
+      "note": "The visible barrel rim and bands supply the reference for a round model.",
+      "state": "draft",
+      "options": {
+        "projection": "iso",
+        "reading": "round",
+        "keepOutline": true
+      },
+      "files": {
+        "sprite": "models/barrel-stool.png",
+        "model": "models/barrel-stool.glb",
+        "preview": "models/barrel-stool.preview.png"
+      },
+      "report": {
+        "width": 28,
+        "height": 40,
+        "voxels": 2918,
+        "extra": 14,
+        "covered": 89,
+        "size": [
+          1,
+          2.071428571428571,
+          1.0714285714285714
+        ],
+        "triangles": 668,
+        "reading": "round",
+        "centre": {
+          "X": 14,
+          "Y": 33
+        },
+        "scores": [
+          {
+            "reading": "round",
+            "covered": 89
+          }
+        ]
+      }
+    },
+    {
+      "id": "blue-stool",
+      "name": "Blue round stool",
+      "area": "Boardwalk",
+      "bounds": [
+        410,
+        608,
+        26,
+        30
+      ],
+      "note": "Check the open space under the stool when reviewing the inferred underside.",
+      "state": "draft",
+      "options": {
+        "projection": "iso",
+        "reading": "round",
+        "keepOutline": true
+      },
+      "files": {
+        "sprite": "models/blue-stool.png",
+        "model": "models/blue-stool.glb",
+        "preview": "models/blue-stool.preview.png"
+      },
+      "report": {
+        "width": 30,
+        "height": 34,
+        "voxels": 1847,
+        "extra": 91,
+        "covered": 66,
+        "size": [
+          1.4,
+          1.1333333333333333,
+          1.4666666666666666
+        ],
+        "triangles": 738,
+        "reading": "round",
+        "centre": {
+          "X": 15,
+          "Y": 27
+        },
+        "scores": [
+          {
+            "reading": "round",
+            "covered": 66
+          }
+        ]
+      }
+    },
+    {
+      "id": "rope-bollard",
+      "name": "Blue mooring bollard",
+      "area": "Boardwalk",
+      "bounds": [
+        328,
+        638,
+        13,
+        34
+      ],
+      "note": "The pole is isolated from the rope. Use the bottom as the tether point.",
+      "state": "draft",
+      "options": {
+        "projection": "iso",
+        "reading": "round",
+        "keepOutline": true
+      },
+      "files": {
+        "sprite": "models/rope-bollard.png",
+        "model": "models/rope-bollard.glb",
+        "preview": "models/rope-bollard.preview.png"
+      },
+      "report": {
+        "width": 17,
+        "height": 38,
+        "voxels": 540,
+        "extra": 4,
+        "covered": 87,
+        "size": [
+          0.7058823529411764,
+          3.411764705882353,
+          0.7058823529411764
+        ],
+        "triangles": 104,
+        "reading": "round",
+        "centre": {
+          "X": 8,
+          "Y": 34
+        },
+        "scores": [
+          {
+            "reading": "round",
+            "covered": 87
+          }
+        ]
+      }
+    },
+    {
+      "id": "pier-menu-stand",
+      "name": "Pier menu stand",
+      "area": "Pier fingers",
+      "bounds": [
+        195,
+        686,
+        33,
+        53
+      ],
+      "note": "The front remains readable in the draft. Review the support feet from the side.",
+      "state": "draft",
+      "options": {
+        "projection": "iso",
+        "reading": "cutout",
+        "keepOutline": true
+      },
+      "files": {
+        "sprite": "models/pier-menu-stand.png",
+        "model": "models/pier-menu-stand.glb",
+        "preview": "models/pier-menu-stand.preview.png"
+      },
+      "report": {
+        "width": 37,
+        "height": 57,
+        "voxels": 9140,
+        "extra": 0,
+        "covered": 100,
+        "size": [
+          1.2432432432432434,
+          2.3783783783783785,
+          1.2972972972972974
+        ],
+        "triangles": 1322,
+        "reading": "cutout",
+        "centre": {
+          "X": 18,
+          "Y": 48
+        },
+        "scores": [
+          {
+            "reading": "cutout",
+            "covered": 100
+          }
+        ]
+      }
+    },
+    {
+      "id": "rubber-fender",
+      "name": "Rubber tire fender",
+      "area": "Pier edge",
+      "bounds": [
+        253,
+        668,
+        31,
+        31
+      ],
+      "note": "The center was masked out. Check tire thickness and the gap around the hanging rope.",
+      "state": "draft",
+      "options": {
+        "projection": "iso",
+        "reading": "cutout",
+        "keepOutline": true
+      },
+      "files": {
+        "sprite": "models/rubber-fender.png",
+        "model": "models/rubber-fender.glb",
+        "preview": "models/rubber-fender.preview.png"
+      },
+      "report": {
+        "width": 35,
+        "height": 35,
+        "voxels": 1897,
+        "extra": 0,
+        "covered": 100,
+        "size": [
+          1.0285714285714285,
+          1.4285714285714286,
+          1.0285714285714285
+        ],
+        "triangles": 1466,
+        "reading": "cutout",
+        "centre": {
+          "X": 17,
+          "Y": 27
+        },
+        "scores": [
+          {
+            "reading": "cutout",
+            "covered": 100
+          }
+        ]
+      }
+    },
+    {
+      "id": "brass-lantern",
+      "name": "Brass pier lantern",
+      "area": "Pier fingers",
+      "bounds": [
+        289,
+        763,
+        20,
+        44
+      ],
+      "note": "The sprite includes the support. Emission and the actual light source are assigned by the scene.",
+      "state": "draft",
+      "options": {
+        "projection": "iso",
+        "reading": "cutout",
+        "keepOutline": true
+      },
+      "files": {
+        "sprite": "models/brass-lantern.png",
+        "model": "models/brass-lantern.glb",
+        "preview": "models/brass-lantern.preview.png"
+      },
+      "report": {
+        "width": 24,
+        "height": 48,
+        "voxels": 1670,
+        "extra": 0,
+        "covered": 100,
+        "size": [
+          1,
+          3.333333333333333,
+          1
+        ],
+        "triangles": 888,
+        "reading": "cutout",
+        "centre": {
+          "X": 12,
+          "Y": 42
+        },
+        "scores": [
+          {
+            "reading": "cutout",
+            "covered": 100
+          }
+        ]
+      }
+    },
+    {
+      "id": "rope-wrapped-piling",
+      "name": "Rope-wrapped piling",
+      "area": "Pier edge",
+      "bounds": [
+        340,
+        670,
+        22,
+        63
+      ],
+      "note": "The visible section is a reference for the rope bands. The submerged length must match the deck height.",
+      "state": "draft",
+      "options": {
+        "projection": "iso",
+        "reading": "round",
+        "keepOutline": true
+      },
+      "files": {
+        "sprite": "models/rope-wrapped-piling.png",
+        "model": "models/rope-wrapped-piling.glb",
+        "preview": "models/rope-wrapped-piling.preview.png"
+      },
+      "report": {
+        "width": 26,
+        "height": 67,
+        "voxels": 1800,
+        "extra": 168,
+        "covered": 63,
+        "size": [
+          0.6153846153846154,
+          4.461538461538462,
+          0.7692307692307693
+        ],
+        "triangles": 338,
+        "reading": "round",
+        "centre": {
+          "X": 13,
+          "Y": 61
+        },
+        "scores": [
+          {
+            "reading": "round",
+            "covered": 63
+          }
+        ]
+      }
+    },
+    {
+      "id": "lighthouse",
+      "name": "Lighthouse",
+      "area": "Lighthouse point",
+      "bounds": [
+        29,
+        119,
+        85,
+        181
+      ],
+      "foot": [
+        71,
+        410
+      ],
+      "floor": 4.45,
+      "note": "The visible tower silhouette is the reference. Inspect the roof, balcony and unseen walls before placement.",
+      "state": "draft",
+      "options": {
+        "projection": "iso",
+        "reading": "round",
+        "keepOutline": true
+      },
+      "files": {
+        "sprite": "models/lighthouse.png",
+        "model": "models/lighthouse.glb",
+        "preview": "models/lighthouse.preview.png"
+      },
+      "report": {
+        "width": 77,
+        "height": 160,
+        "voxels": 81014,
+        "extra": 434,
+        "covered": 90,
+        "size": [
+          1.064935064935065,
+          3.5064935064935066,
+          1.090909090909091
+        ],
+        "triangles": 5660,
+        "reading": "round",
+        "centre": {
+          "X": 38,
+          "Y": 141
+        },
+        "scores": [
+          {
+            "reading": "round",
+            "covered": 90
+          }
+        ]
+      }
+    },
+    {
+      "id": "squid-lantern-shop",
+      "name": "Squid Lantern Shop façade",
+      "bounds": [
+        145,
+        361,
+        91,
+        183
+      ],
+      "foot": [
+        190,
+        535
+      ],
+      "floor": 2.65,
+      "state": "needs-sprite",
+      "area": "Painted map",
+      "note": "The squid banner, balcony, lanterns, storefront door and planters share one painted face. Isolate the structural shell and façade pieces."
+    },
+    {
+      "id": "seafood-shop",
+      "name": "Seafood Shop façade",
+      "bounds": [
+        217,
+        327,
+        216,
+        226
+      ],
+      "foot": [
+        325,
+        540
+      ],
+      "floor": 2.65,
+      "state": "needs-sprite",
+      "area": "Painted map",
+      "note": "The building shell, roof windows, crates, fish trays, counters and door form one painted face. The sign and awning already have individual drafts."
+    },
+    {
+      "id": "corner-shop",
+      "name": "Corner Shop façade",
+      "bounds": [
+        421,
+        382,
+        101,
+        161
+      ],
+      "foot": [
+        472,
+        539
+      ],
+      "floor": 2.65,
+      "state": "needs-sprite",
+      "area": "Painted map",
+      "note": "The brick walls, balcony guardrail, windows, hanging sign, doorway and trim share one painted face. Capture each part at its own depth."
+    },
+    {
+      "id": "red-cafe-set",
+      "name": "Red umbrella café set",
+      "bounds": [
+        259,
+        570,
+        66,
+        67
+      ],
+      "foot": [
+        292,
+        632
+      ],
+      "floor": 0.95,
+      "state": "needs-sprite",
+      "area": "Painted map",
+      "note": "The red canopy covers the pole, table and chairs. The isolated canopy is available. Obtain clean views of the furniture."
+    },
+    {
+      "id": "blue-cafe-set",
+      "name": "Blue umbrella café set",
+      "bounds": [
+        322,
+        571,
+        67,
+        69
+      ],
+      "foot": [
+        355,
+        635
+      ],
+      "floor": 0.95,
+      "state": "needs-sprite",
+      "area": "Painted map",
+      "note": "The blue canopy covers the pole, table and chairs. The isolated canopy is available. Obtain clean views of the furniture."
+    },
+    {
+      "id": "barrel-planters",
+      "name": "Barrel and planter stack",
+      "bounds": [
+        212,
+        576,
+        48,
+        75
+      ],
+      "foot": [
+        236,
+        644
+      ],
+      "floor": 0.95,
+      "state": "needs-sprite",
+      "area": "Painted map",
+      "note": "The large barrel, nested planter, flowers and small buckets overlap. Split the rim, barrel body and plant silhouettes."
+    },
+    {
+      "id": "stool-clusters",
+      "name": "Stools and dock cabinet",
+      "bounds": [
+        387,
+        585,
+        58,
+        58
+      ],
+      "foot": [
+        416,
+        639
+      ],
+      "floor": 0.95,
+      "state": "needs-sprite",
+      "area": "Painted map",
+      "note": "The stool, barrel and vending cabinet have individual drafts. Hanging signs, cups and small crates need independent masks."
+    },
+    {
+      "id": "west-fishing-boat",
+      "name": "West fishing boat",
+      "bounds": [
+        10,
+        650,
+        94,
+        204
+      ],
+      "foot": [
+        57,
+        759
+      ],
+      "floor": -0.1,
+      "state": "needs-sprite",
+      "area": "Painted map",
+      "note": "The hull, cabin, rigging, deck gear and waterline overlap. Obtain clean hull and cabin views, then attach the animated ropes and wake."
+    },
+    {
+      "id": "east-fishing-boat",
+      "name": "East fishing boat",
+      "bounds": [
+        369,
+        697,
+        95,
+        147
+      ],
+      "foot": [
+        419,
+        788
+      ],
+      "floor": -0.07,
+      "state": "needs-sprite",
+      "area": "Painted map",
+      "note": "The hull, cabin, rigging, deck gear and waterline overlap. Obtain clean hull and cabin views, then attach the animated ropes and wake."
+    },
+    {
+      "id": "fish-trays",
+      "name": "Fish trays, baskets and crates",
+      "area": "Promenade",
+      "bounds": [
+        279,
+        489,
+        158,
+        59
+      ],
+      "note": "Create a separate sprite for each tray and crate. Their bases overlap the storefront and pavement.",
+      "state": "needs-sprite"
+    },
+    {
+      "id": "lantern-shop-banner",
+      "name": "Squid banner and window awnings",
+      "area": "Promenade",
+      "bounds": [
+        146,
+        394,
+        116,
+        111
+      ],
+      "note": "Isolate the banner and each awning from the wall and neighboring foliage.",
+      "state": "needs-sprite"
+    },
+    {
+      "id": "planters-and-cliff-foliage",
+      "name": "Plants, potted flowers and cliff foliage",
+      "area": "Lighthouse point",
+      "bounds": [
+        9,
+        280,
+        184,
+        350
+      ],
+      "note": "Keep separate leaf silhouettes and pots. Large patches of foliage are painted into the cliff.",
+      "state": "needs-sprite"
+    },
+    {
+      "id": "rope-and-chain-lines",
+      "name": "Rope and chain runs",
+      "area": "Boardwalk",
+      "bounds": [
+        190,
+        630,
+        253,
+        36
+      ],
+      "note": "Trace each line between the bollards. Use a curve and repeated rope texture for the final mesh.",
+      "state": "needs-sprite"
+    },
+    {
+      "id": "gold-pier-signs",
+      "name": "Gold hanging signs and cleats",
+      "area": "Pier fingers",
+      "bounds": [
+        253,
+        702,
+        69,
+        111
+      ],
+      "note": "Some sign faces and pier cleats are partly hidden by ropes. Obtain separate side views.",
+      "state": "needs-sprite"
+    },
+    {
+      "id": "pier-ladders",
+      "name": "Pier ladders and access trim",
+      "area": "Pier edge",
+      "bounds": [
+        458,
+        625,
+        82,
+        101
+      ],
+      "note": "Recreate the rungs and rails at the correct deck height. Some rungs are hidden by the waterline.",
+      "state": "needs-sprite"
+    },
+    {
+      "id": "fish-shop-door-windows",
+      "name": "Shop doors, windows and balcony rails",
+      "area": "Promenade",
+      "bounds": [
+        145,
+        356,
+        388,
+        183
+      ],
+      "note": "Measure each opening against its storefront before fitting separate meshes.",
+      "state": "needs-sprite"
+    },
+    {
+      "id": "terrace",
+      "name": "Stone promenade and retaining wall",
+      "area": "3D layout",
+      "placements": [
+        [
+          104,
+          527,
+          538,
+          578
+        ],
+        [
+          104,
+          405,
+          538,
+          527
+        ]
+      ],
+      "count": 2,
+      "note": "Two textured stone platforms use the existing walkable footprint.",
+      "state": "geometry"
+    },
+    {
+      "id": "lighthouse-cliff",
+      "name": "Lighthouse rock platform",
+      "area": "3D layout",
+      "placements": [
+        [
+          24,
+          339,
+          113,
+          495
+        ]
+      ],
+      "count": 1,
+      "note": "The outcrop is a separate mesh with a painted rock texture.",
+      "state": "geometry"
+    },
+    {
+      "id": "wood-decks",
+      "name": "Wood boardwalk and pier fingers",
+      "area": "3D layout",
+      "placements": [
+        [
+          164,
+          578,
+          539,
+          682
+        ],
+        [
+          114,
+          616,
+          164,
+          683
+        ],
+        [
+          164,
+          682,
+          238,
+          808
+        ],
+        [
+          266,
+          682,
+          322,
+          808
+        ]
+      ],
+      "count": 4,
+      "note": "Four connected plank platforms use the Wharf elevation and collision layout.",
+      "state": "geometry"
+    },
+    {
+      "id": "stairs",
+      "name": "West and east stairs",
+      "area": "3D layout",
+      "placements": [
+        [
+          160,
+          573,
+          211,
+          645
+        ],
+        [
+          447,
+          576,
+          535,
+          644
+        ]
+      ],
+      "count": 2,
+      "note": "9 steps per run use the shared elevation profile.",
+      "state": "geometry"
+    },
+    {
+      "id": "rail-sections",
+      "name": "Railing sections and upright supports",
+      "area": "3D layout",
+      "placements": [
+        [
+          120,
+          538,
+          120,
+          574,
+          2.65
+        ],
+        [
+          224,
+          576,
+          413,
+          576,
+          2.65
+        ],
+        [
+          451,
+          642,
+          531,
+          642,
+          0.95
+        ],
+        [
+          326,
+          679,
+          535,
+          679,
+          0.95
+        ],
+        [
+          166,
+          680,
+          166,
+          807,
+          0.95
+        ],
+        [
+          237,
+          686,
+          237,
+          807,
+          0.95
+        ],
+        [
+          171,
+          806,
+          237,
+          806,
+          0.95
+        ],
+        [
+          267,
+          686,
+          267,
+          806,
+          0.95
+        ],
+        [
+          321,
+          686,
+          321,
+          806,
+          0.95
+        ],
+        [
+          271,
+          806,
+          321,
+          806,
+          0.95
+        ]
+      ],
+      "count": 10,
+      "note": "Rails share the positions used by the 2.5D scene.",
+      "state": "geometry"
+    },
+    {
+      "id": "lamps",
+      "name": "Street and pier lamp placements",
+      "area": "3D layout",
+      "placements": [
+        [
+          128,
+          555,
+          2.65,
+          2.7
+        ],
+        [
+          508,
+          555,
+          2.65,
+          2.7
+        ],
+        [
+          245,
+          670,
+          0.95,
+          2.05
+        ],
+        [
+          518,
+          674,
+          0.95,
+          2.05
+        ],
+        [
+          175,
+          794,
+          0.95,
+          1.8
+        ]
+      ],
+      "count": 5,
+      "note": "Each fixture has a model position and height with its own light.",
+      "state": "geometry"
+    },
+    {
+      "id": "piles",
+      "name": "Pier support piles",
+      "area": "3D layout",
+      "placements": [
+        [
+          164,
+          578,
+          539,
+          682
+        ],
+        [
+          114,
+          616,
+          164,
+          683
+        ],
+        [
+          164,
+          682,
+          238,
+          808
+        ],
+        [
+          266,
+          682,
+          322,
+          808
+        ]
+      ],
+      "count": null,
+      "note": "Support piles repeat along the deck edges and extend through the waterline.",
+      "state": "geometry"
+    },
+    {
+      "id": "building-volumes",
+      "name": "Storefront roof and side volumes",
+      "area": "3D layout",
+      "placements": [
+        [
+          190,
+          535
+        ],
+        [
+          325,
+          540
+        ],
+        [
+          472,
+          539
+        ]
+      ],
+      "count": 3,
+      "note": "Scene meshes give the three painted fronts side and roof depth.",
+      "state": "geometry"
+    },
+    {
+      "id": "sea",
+      "name": "Sea, shoreline foam and glints",
+      "area": "Harbor",
+      "state": "animated",
+      "note": "The ocean and shoreline animation come from the map renderer."
+    },
+    {
+      "id": "lantern-light",
+      "name": "Lantern light and shadows",
+      "area": "Lighting",
+      "state": "animated",
+      "note": "The scene lights follow the Day, Dusk and Night presets."
+    },
+    {
+      "id": "boat-motion",
+      "name": "Boat bobbing",
+      "area": "Harbor",
+      "state": "animated",
+      "note": "The water movement animates the two existing boat placements."
+    },
+    {
+      "id": "heroes",
+      "name": "Loki and Yhannie sprite animations",
+      "area": "Actors",
+      "state": "animated",
+      "note": "The map uses their original movement sheets. Outfit conversion needs a separate four-view sheet with aligned feet."
+    }
+  ]
+}

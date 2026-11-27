@@ -1,0 +1,462 @@
+{
+  "referenceSize": [
+    1536,
+    864
+  ],
+  "objects": [
+    {
+      "id": "ocean",
+      "name": "Midnight open sea",
+      "category": "water",
+      "bbox": [
+        0,
+        0,
+        1536,
+        864
+      ],
+      "layer": "ocean",
+      "pivot": [
+        768,
+        432
+      ],
+      "collision": "outside-dock",
+      "animation": "parallax currents",
+      "asset": "dock.webp",
+      "confidence": "observed",
+      "notes": "Navy base, cobalt turbulence and cyan crest foam. Plate under moving water layers."
+    },
+    {
+      "id": "far-crest",
+      "name": "Raised sea behind the body",
+      "category": "wave",
+      "bbox": [
+        345,
+        0,
+        886,
+        446
+      ],
+      "layer": "far-water",
+      "pivot": [
+        577,
+        230
+      ],
+      "collision": "none",
+      "animation": "curl and stream",
+      "asset": "crest.webp",
+      "confidence": "observed",
+      "notes": "Crest passes in front of a partially visible rear coil."
+    },
+    {
+      "id": "rear-coil",
+      "name": "Partially submerged body arc",
+      "category": "boss",
+      "bbox": [
+        516,
+        96,
+        808,
+        262
+      ],
+      "layer": "boss-rear",
+      "pivot": [
+        651,
+        219
+      ],
+      "collision": "none",
+      "animation": "sway and sink",
+      "asset": null,
+      "confidence": "observed",
+      "notes": "Only the exposed arc is visible. Submerged continuity is reconstructed."
+    },
+    {
+      "id": "head",
+      "name": "Crowned dragon head",
+      "category": "boss",
+      "bbox": [
+        746,
+        90,
+        1114,
+        444
+      ],
+      "layer": "boss",
+      "pivot": [
+        958,
+        283
+      ],
+      "collision": "target",
+      "animation": "bob, lunge, hurt, submerge",
+      "asset": "tideborn.webp",
+      "confidence": "observed",
+      "notes": "Cyan eye, indigo mane, gold tips, magenta mouth and ivory fangs. Jaw artwork is part of the head plate."
+    },
+    {
+      "id": "neck",
+      "name": "Curving plated neck",
+      "category": "boss",
+      "bbox": [
+        948,
+        176,
+        1280,
+        509
+      ],
+      "layer": "boss",
+      "pivot": [
+        1100,
+        481
+      ],
+      "collision": "none",
+      "animation": "sway and submerge",
+      "asset": "tideborn.webp",
+      "confidence": "observed",
+      "notes": "Lilac scales and amber belly face the camera. Front foam occludes the base."
+    },
+    {
+      "id": "energy",
+      "name": "Violet current around dragon",
+      "category": "effect",
+      "bbox": [
+        536,
+        44,
+        1504,
+        475
+      ],
+      "layer": "energy",
+      "pivot": [
+        968,
+        277
+      ],
+      "collision": "none",
+      "animation": "pulse and burst",
+      "asset": null,
+      "confidence": "observed",
+      "notes": "Violet ribbons trace the dark sea and mane."
+    },
+    {
+      "id": "surf",
+      "name": "Front foaming swell",
+      "category": "wave",
+      "bbox": [
+        700,
+        330,
+        1536,
+        586
+      ],
+      "layer": "front-water",
+      "pivot": [
+        1126,
+        449
+      ],
+      "collision": "none",
+      "animation": "crest and spray",
+      "asset": "crest.webp",
+      "confidence": "observed",
+      "notes": "White-blue front foam overlaps the creature and distant dock edge."
+    },
+    {
+      "id": "deck",
+      "name": "Wet diagonal plank deck",
+      "category": "floor",
+      "bbox": [
+        0,
+        331,
+        1214,
+        864
+      ],
+      "layer": "dock",
+      "pivot": [
+        479,
+        653
+      ],
+      "collision": "walk-polygon",
+      "animation": "specular glints",
+      "asset": "dock.webp",
+      "confidence": "observed",
+      "notes": "Long perspective seams and reflections in amber, violet and cobalt."
+    },
+    {
+      "id": "back-rail",
+      "name": "Ocean-facing posts, ropes and rails",
+      "category": "rail",
+      "bbox": [
+        0,
+        307,
+        1086,
+        633
+      ],
+      "layer": "dock",
+      "pivot": [
+        559,
+        465
+      ],
+      "collision": "walk-polygon",
+      "animation": "static",
+      "asset": "dock.webp",
+      "confidence": "observed",
+      "notes": "Post caps define perspective. Deck boundary runs inward of this edge."
+    },
+    {
+      "id": "front-rail",
+      "name": "Near diagonal rails and support posts",
+      "category": "rail",
+      "bbox": [
+        601,
+        577,
+        1102,
+        864
+      ],
+      "layer": "foreground",
+      "pivot": [
+        867,
+        724
+      ],
+      "collision": "walk-polygon",
+      "animation": "static",
+      "asset": "dock.webp",
+      "confidence": "observed",
+      "notes": "Near rail should occlude silhouettes that overlap it."
+    },
+    {
+      "id": "left-lamp",
+      "name": "Tall rear lantern and bracket",
+      "category": "prop",
+      "bbox": [
+        171,
+        220,
+        286,
+        464
+      ],
+      "layer": "dock",
+      "pivot": [
+        195,
+        451
+      ],
+      "collision": "circle",
+      "animation": "light flicker",
+      "asset": "dock.webp",
+      "confidence": "observed",
+      "notes": "Gold illumination falls along the left boards."
+    },
+    {
+      "id": "near-lamp",
+      "name": "Front hanging lantern and post",
+      "category": "prop",
+      "bbox": [
+        123,
+        626,
+        266,
+        831
+      ],
+      "layer": "foreground",
+      "pivot": [
+        155,
+        808
+      ],
+      "collision": "circle",
+      "animation": "light flicker",
+      "asset": "dock.webp",
+      "confidence": "observed",
+      "notes": "Warm light reflected along the near rail."
+    },
+    {
+      "id": "rear-barrel",
+      "name": "Rear cask and crate",
+      "category": "prop",
+      "bbox": [
+        56,
+        424,
+        175,
+        554
+      ],
+      "layer": "dock",
+      "pivot": [
+        111,
+        531
+      ],
+      "collision": "circles",
+      "animation": "static",
+      "asset": "dock.webp",
+      "confidence": "observed",
+      "notes": "Stave cask overlaps crate."
+    },
+    {
+      "id": "rope",
+      "name": "Coiled rope",
+      "category": "prop",
+      "bbox": [
+        136,
+        507,
+        216,
+        553
+      ],
+      "layer": "dock",
+      "pivot": [
+        175,
+        538
+      ],
+      "collision": "none",
+      "animation": "static",
+      "asset": "dock.webp",
+      "confidence": "observed",
+      "notes": "Flat rope rests on the deck."
+    },
+    {
+      "id": "near-crates",
+      "name": "Foreground casks and crate",
+      "category": "prop",
+      "bbox": [
+        0,
+        652,
+        136,
+        846
+      ],
+      "layer": "foreground",
+      "pivot": [
+        61,
+        816
+      ],
+      "collision": "circles",
+      "animation": "static",
+      "asset": "dock.webp",
+      "confidence": "observed",
+      "notes": "Large crate overlaps lower-left barrels."
+    },
+    {
+      "id": "broken-pier",
+      "name": "Broken pier extension and piles",
+      "category": "prop",
+      "bbox": [
+        1031,
+        513,
+        1231,
+        702
+      ],
+      "layer": "dock",
+      "pivot": [
+        1100,
+        620
+      ],
+      "collision": "outside-dock",
+      "animation": "water overlay",
+      "asset": "dock.webp",
+      "confidence": "observed",
+      "notes": "Broken end is beyond the playable deck boundary."
+    },
+    {
+      "id": "debris",
+      "name": "Floating broken beams and piles",
+      "category": "prop",
+      "bbox": [
+        1200,
+        534,
+        1425,
+        742
+      ],
+      "layer": "front-water",
+      "pivot": [
+        1309,
+        680
+      ],
+      "collision": "none",
+      "animation": "foam and spray",
+      "asset": "dock.webp",
+      "confidence": "observed",
+      "notes": "Three diagonally tilted beams and a short upright pile."
+    },
+    {
+      "id": "hero",
+      "name": "Yhannie casting toward the sea",
+      "category": "hero",
+      "bbox": [
+        378,
+        555,
+        506,
+        696
+      ],
+      "layer": "actors",
+      "pivot": [
+        445,
+        674
+      ],
+      "collision": "foot circle",
+      "animation": "atlas plus cast poses",
+      "asset": "yhannie-combat.webp",
+      "confidence": "observed",
+      "notes": "Red beanie, pale hair, orange jacket, teal pack. Reuse the existing hero atlas."
+    },
+    {
+      "id": "magic",
+      "name": "Violet casting sigil and bolts",
+      "category": "effect",
+      "bbox": [
+        478,
+        401,
+        783,
+        610
+      ],
+      "layer": "magic",
+      "pivot": [
+        529,
+        553
+      ],
+      "collision": "attack",
+      "animation": "rotate, charge and impact",
+      "asset": null,
+      "confidence": "observed",
+      "notes": "Violet-white core, geometric rune rings and bright streaks."
+    },
+    {
+      "id": "player-hud",
+      "name": "Portrait, name, level, HP and MP",
+      "category": "ui",
+      "bbox": [
+        12,
+        70,
+        395,
+        181
+      ],
+      "layer": "hud",
+      "pivot": [
+        12,
+        70
+      ],
+      "collision": "none",
+      "animation": "live bars",
+      "asset": "../portrait-yhannie.webp",
+      "confidence": "observed",
+      "notes": "Gold outline, scarlet HP and azure MP."
+    },
+    {
+      "id": "boss-hud",
+      "name": "Compass, boss name and HP",
+      "category": "ui",
+      "bbox": [
+        1071,
+        60,
+        1527,
+        149
+      ],
+      "layer": "hud",
+      "pivot": [
+        1527,
+        70
+      ],
+      "collision": "none",
+      "animation": "live bar",
+      "asset": null,
+      "confidence": "observed",
+      "notes": "Compass overlaps the label and red bar."
+    },
+    {
+      "id": "touch",
+      "name": "Joystick and combat actions",
+      "category": "ui",
+      "bbox": null,
+      "layer": "hud",
+      "pivot": null,
+      "collision": "input",
+      "animation": "responsive",
+      "asset": null,
+      "confidence": "reconstructed",
+      "notes": "Requested mobile controls are not visible in the supplied artwork."
+    }
+  ]
+}

@@ -1,0 +1,1 @@
+Compared Big Dock artwork with 4px collision mask. Removed orphan rectangle x1060–1080/y804–844 at lower stair landing (50 cells). Verified full 60px vertical foot corridor at x1070. No collision cells outside this rectangle changed. Hut, equipment, railings, water and boat masks preserved. Physical mobile traversal not tested.

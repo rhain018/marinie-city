@@ -1,0 +1,96 @@
+{
+  "source": "Original layered battle cues, with oscillator and noise synthesis as the loading fallback.",
+  "mixer": "The battle score follows Music volume. Battle cues use sfxBus and follow SFX volume.",
+  "sampleBank": {
+    "file": "effects/combat-sfx.wav",
+    "cues": 26,
+    "slotSeconds": 1,
+    "events": "Card selection, skill preparation, release, hit, parry, dash, boss warnings and impacts"
+  },
+  "music": {
+    "track": "Armageddon",
+    "artist": "ALIBI Music",
+    "composers": ["James Murray", "Benjamin Hayden"],
+    "file": "armageddon.mp3",
+    "scope": "Bakunawa card battle, real-time encounter and practice"
+  },
+  "cues": [
+    {
+      "event": "emerge",
+      "design": "Low sawtooth descent and low-passed swell"
+    },
+    {
+      "event": "roar",
+      "design": "Dragon bass and filtered noise"
+    },
+    {
+      "event": "tell",
+      "design": "Short rising tension cue before impact"
+    },
+    {
+      "event": "impact",
+      "design": "Water crash and bass transient, with a bright burst snap, tail swish, vortex rise, or lower abyss impact by attack type."
+    },
+    {
+      "event": "hurt",
+      "design": "Short filtered impact"
+    },
+    {
+      "event": "enrage",
+      "design": "Lower growl and swell"
+    },
+    {
+      "event": "sink",
+      "design": "Submerged fall"
+    },
+    {
+      "event": "bolt",
+      "design": "Quick magic chirp"
+    },
+    {
+      "event": "charge",
+      "design": "Two ascending partials"
+    },
+    {
+      "event": "ultimate",
+      "design": "Sub-bass swell, ascending celestial tones, and a bright release transient"
+    },
+    {
+      "event": "launch",
+      "design": "Short rising release; spell-specific casting cues distinguish Arcane Pulse, Tidal Arc, Moon Cut, and Charged Starburst"
+    },
+    {
+      "event": "hit",
+      "design": "Descending spell impact"
+    },
+    {
+      "event": "shield",
+      "design": "Bright rising sine"
+    },
+    {
+      "event": "dodge",
+      "design": "High filtered swish"
+    },
+    {
+      "event": "won",
+      "design": "Four-note victory arpeggio"
+    },
+    {
+      "event": "victoryStart",
+      "design": "Low cinematic swell followed by ascending celestial tones and a restrained sparkle"
+    },
+    {
+      "event": "victoryStrike",
+      "design": "Deep impact hit, layered magic chime, and filtered crash synchronized to the beam hit"
+    },
+    {
+      "event": "bossFallen",
+      "design": "Low submerged rumble with a soft water wash during Bakunawa's final line"
+    },
+    {
+      "event": "lost",
+      "design": "Descending defeat tone"
+    }
+  ],
+  "coverage": "Boss attacks have wind-up and impact cues; player spells have distinct synthesized cast and release cues; the boss-defeat cinematic has charge, beam impact and sinking cues. Dock creak, lantern fire, wind and jaw do not have dedicated sounds. No voice recordings are included; cinematic dialogue is displayed as timed subtitles."
+}

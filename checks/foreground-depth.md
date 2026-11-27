@@ -1,0 +1,1 @@
+Replaced global post-character occluder pass with one shared Y-sorted entity list. Existing 12 foreground layers now sort individually with hero, cat and NPCs. Added transparent polygon crops for seafood barrels, dock sign and dock machine. Verified sorting contract and script syntax. No mobile visual playback verified.

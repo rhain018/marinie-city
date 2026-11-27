@@ -1,0 +1,676 @@
+{
+  "source": "01a1ca7d-6fdb-735e-b32d-0f5805332d7e.png",
+  "sourceDimensions": [
+    6688,
+    3776
+  ],
+  "sourceFile": "uploaded reference only",
+  "extraction": {
+    "previewGrid": "1600x904; source content boxes estimated from eight panel art areas per strip",
+    "insetPreviewPixels": 9,
+    "framePreviewPixels": 112,
+    "alphaMatte": "soft navy key matte derived from each frame perimeter; presentation card frame and labels excluded"
+  },
+  "animations": [
+    {
+      "id": "abyssal_roar",
+      "displayName": "Abyssal Roar",
+      "file": "abyssal_roar.webp",
+      "frameSize": [
+        468,
+        468
+      ],
+      "frameCount": 8,
+      "layout": "8 columns \u00d7 1 row",
+      "fps": 8,
+      "loop": false,
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "sourceConfidence": "high for visible art and progression; medium for exact panel boundaries",
+      "visualSequence": [
+        "head lowered",
+        "jaw opening",
+        "throat energy",
+        "violet charge",
+        "energy flash",
+        "shockwave forms",
+        "ring expands",
+        "fragments dissipate"
+      ],
+      "events": {
+        "tell": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "impact": [
+          4,
+          5,
+          6,
+          7
+        ]
+      },
+      "collision": "uses existing boss attack hazard and hit timing; visuals do not define collision",
+      "frames": [
+        {
+          "index": 0,
+          "sourcePreviewBounds": [
+            359,
+            189,
+            112,
+            112
+          ],
+          "atlasRect": [
+            0,
+            0,
+            468,
+            468
+          ]
+        },
+        {
+          "index": 1,
+          "sourcePreviewBounds": [
+            509,
+            189,
+            112,
+            112
+          ],
+          "atlasRect": [
+            468,
+            0,
+            468,
+            468
+          ]
+        },
+        {
+          "index": 2,
+          "sourcePreviewBounds": [
+            659,
+            189,
+            112,
+            112
+          ],
+          "atlasRect": [
+            936,
+            0,
+            468,
+            468
+          ]
+        },
+        {
+          "index": 3,
+          "sourcePreviewBounds": [
+            809,
+            189,
+            112,
+            112
+          ],
+          "atlasRect": [
+            1404,
+            0,
+            468,
+            468
+          ]
+        },
+        {
+          "index": 4,
+          "sourcePreviewBounds": [
+            959,
+            189,
+            112,
+            112
+          ],
+          "atlasRect": [
+            1872,
+            0,
+            468,
+            468
+          ]
+        },
+        {
+          "index": 5,
+          "sourcePreviewBounds": [
+            1119,
+            189,
+            112,
+            112
+          ],
+          "atlasRect": [
+            2340,
+            0,
+            468,
+            468
+          ]
+        },
+        {
+          "index": 6,
+          "sourcePreviewBounds": [
+            1269,
+            189,
+            112,
+            112
+          ],
+          "atlasRect": [
+            2808,
+            0,
+            468,
+            468
+          ]
+        },
+        {
+          "index": 7,
+          "sourcePreviewBounds": [
+            1426,
+            189,
+            112,
+            112
+          ],
+          "atlasRect": [
+            3276,
+            0,
+            468,
+            468
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tidal_cataclysm",
+      "displayName": "Tidal Cataclysm",
+      "file": "tidal_cataclysm.webp",
+      "frameSize": [
+        468,
+        468
+      ],
+      "frameCount": 8,
+      "layout": "8 columns \u00d7 1 row",
+      "fps": 8,
+      "loop": false,
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "sourceConfidence": "high for visible art and progression; medium for exact panel boundaries",
+      "visualSequence": [
+        "ocean disturbance",
+        "water rises",
+        "curved wave forms",
+        "crest grows",
+        "curl builds",
+        "wave peaks",
+        "wave crashes",
+        "foam and spray disperse"
+      ],
+      "events": {
+        "tell": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "impact": [
+          4,
+          5,
+          6,
+          7
+        ]
+      },
+      "collision": "uses existing boss attack hazard and hit timing; visuals do not define collision",
+      "frames": [
+        {
+          "index": 0,
+          "sourcePreviewBounds": [
+            359,
+            368,
+            112,
+            112
+          ],
+          "atlasRect": [
+            0,
+            0,
+            468,
+            468
+          ]
+        },
+        {
+          "index": 1,
+          "sourcePreviewBounds": [
+            509,
+            368,
+            112,
+            112
+          ],
+          "atlasRect": [
+            468,
+            0,
+            468,
+            468
+          ]
+        },
+        {
+          "index": 2,
+          "sourcePreviewBounds": [
+            659,
+            368,
+            112,
+            112
+          ],
+          "atlasRect": [
+            936,
+            0,
+            468,
+            468
+          ]
+        },
+        {
+          "index": 3,
+          "sourcePreviewBounds": [
+            809,
+            368,
+            112,
+            112
+          ],
+          "atlasRect": [
+            1404,
+            0,
+            468,
+            468
+          ]
+        },
+        {
+          "index": 4,
+          "sourcePreviewBounds": [
+            959,
+            368,
+            112,
+            112
+          ],
+          "atlasRect": [
+            1872,
+            0,
+            468,
+            468
+          ]
+        },
+        {
+          "index": 5,
+          "sourcePreviewBounds": [
+            1119,
+            368,
+            112,
+            112
+          ],
+          "atlasRect": [
+            2340,
+            0,
+            468,
+            468
+          ]
+        },
+        {
+          "index": 6,
+          "sourcePreviewBounds": [
+            1269,
+            368,
+            112,
+            112
+          ],
+          "atlasRect": [
+            2808,
+            0,
+            468,
+            468
+          ]
+        },
+        {
+          "index": 7,
+          "sourcePreviewBounds": [
+            1426,
+            368,
+            112,
+            112
+          ],
+          "atlasRect": [
+            3276,
+            0,
+            468,
+            468
+          ]
+        }
+      ]
+    },
+    {
+      "id": "maelstrom_prison",
+      "displayName": "Maelstrom Prison",
+      "file": "maelstrom_prison.webp",
+      "frameSize": [
+        468,
+        468
+      ],
+      "frameCount": 8,
+      "layout": "8 columns \u00d7 1 row",
+      "fps": 8,
+      "loop": false,
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "sourceConfidence": "high for visible art and progression; medium for exact panel boundaries",
+      "visualSequence": [
+        "ground ripple",
+        "rotation begins",
+        "currents expand",
+        "water rises",
+        "wall develops",
+        "vortex grows",
+        "water prison forms",
+        "energy arcs peak"
+      ],
+      "events": {
+        "tell": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "impact": [
+          4,
+          5,
+          6,
+          7
+        ]
+      },
+      "collision": "uses existing boss attack hazard and hit timing; visuals do not define collision",
+      "frames": [
+        {
+          "index": 0,
+          "sourcePreviewBounds": [
+            359,
+            544,
+            112,
+            112
+          ],
+          "atlasRect": [
+            0,
+            0,
+            468,
+            468
+          ]
+        },
+        {
+          "index": 1,
+          "sourcePreviewBounds": [
+            509,
+            544,
+            112,
+            112
+          ],
+          "atlasRect": [
+            468,
+            0,
+            468,
+            468
+          ]
+        },
+        {
+          "index": 2,
+          "sourcePreviewBounds": [
+            659,
+            544,
+            112,
+            112
+          ],
+          "atlasRect": [
+            936,
+            0,
+            468,
+            468
+          ]
+        },
+        {
+          "index": 3,
+          "sourcePreviewBounds": [
+            809,
+            544,
+            112,
+            112
+          ],
+          "atlasRect": [
+            1404,
+            0,
+            468,
+            468
+          ]
+        },
+        {
+          "index": 4,
+          "sourcePreviewBounds": [
+            959,
+            544,
+            112,
+            112
+          ],
+          "atlasRect": [
+            1872,
+            0,
+            468,
+            468
+          ]
+        },
+        {
+          "index": 5,
+          "sourcePreviewBounds": [
+            1119,
+            544,
+            112,
+            112
+          ],
+          "atlasRect": [
+            2340,
+            0,
+            468,
+            468
+          ]
+        },
+        {
+          "index": 6,
+          "sourcePreviewBounds": [
+            1269,
+            544,
+            112,
+            112
+          ],
+          "atlasRect": [
+            2808,
+            0,
+            468,
+            468
+          ]
+        },
+        {
+          "index": 7,
+          "sourcePreviewBounds": [
+            1426,
+            544,
+            112,
+            112
+          ],
+          "atlasRect": [
+            3276,
+            0,
+            468,
+            468
+          ]
+        }
+      ]
+    },
+    {
+      "id": "stormfang_lightning",
+      "displayName": "Stormfang Lightning",
+      "file": "stormfang_lightning.webp",
+      "frameSize": [
+        468,
+        468
+      ],
+      "frameCount": 8,
+      "layout": "8 columns \u00d7 1 row",
+      "fps": 8,
+      "loop": false,
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "sourceConfidence": "high for visible art and progression; medium for exact panel boundaries",
+      "visualSequence": [
+        "boss charge",
+        "horn arcs",
+        "mane electrifies",
+        "electricity intensifies",
+        "mouth charges",
+        "discharge starts",
+        "branches strike",
+        "impact flash and spray"
+      ],
+      "events": {
+        "tell": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "impact": [
+          4,
+          5,
+          6,
+          7
+        ]
+      },
+      "collision": "uses existing boss attack hazard and hit timing; visuals do not define collision",
+      "frames": [
+        {
+          "index": 0,
+          "sourcePreviewBounds": [
+            359,
+            721,
+            112,
+            112
+          ],
+          "atlasRect": [
+            0,
+            0,
+            468,
+            468
+          ]
+        },
+        {
+          "index": 1,
+          "sourcePreviewBounds": [
+            509,
+            721,
+            112,
+            112
+          ],
+          "atlasRect": [
+            468,
+            0,
+            468,
+            468
+          ]
+        },
+        {
+          "index": 2,
+          "sourcePreviewBounds": [
+            659,
+            721,
+            112,
+            112
+          ],
+          "atlasRect": [
+            936,
+            0,
+            468,
+            468
+          ]
+        },
+        {
+          "index": 3,
+          "sourcePreviewBounds": [
+            809,
+            721,
+            112,
+            112
+          ],
+          "atlasRect": [
+            1404,
+            0,
+            468,
+            468
+          ]
+        },
+        {
+          "index": 4,
+          "sourcePreviewBounds": [
+            959,
+            721,
+            112,
+            112
+          ],
+          "atlasRect": [
+            1872,
+            0,
+            468,
+            468
+          ]
+        },
+        {
+          "index": 5,
+          "sourcePreviewBounds": [
+            1119,
+            721,
+            112,
+            112
+          ],
+          "atlasRect": [
+            2340,
+            0,
+            468,
+            468
+          ]
+        },
+        {
+          "index": 6,
+          "sourcePreviewBounds": [
+            1269,
+            721,
+            112,
+            112
+          ],
+          "atlasRect": [
+            2808,
+            0,
+            468,
+            468
+          ]
+        },
+        {
+          "index": 7,
+          "sourcePreviewBounds": [
+            1426,
+            721,
+            112,
+            112
+          ],
+          "atlasRect": [
+            3276,
+            0,
+            468,
+            468
+          ]
+        }
+      ]
+    }
+  ]
+}

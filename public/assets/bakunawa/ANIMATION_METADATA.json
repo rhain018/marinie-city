@@ -1,0 +1,284 @@
+{
+  "coordinateSpace": [
+    1536,
+    864
+  ],
+  "atlases": [
+    {
+      "file": "yhannie-combat.webp",
+      "kind": "generated pose atlas",
+      "frameSize": [
+        256,
+        256
+      ],
+      "frames": 8,
+      "layout": [
+        4,
+        2
+      ],
+      "pivot": [
+        128,
+        229
+      ],
+      "collision": "11-unit inset ground footprint",
+      "loop": false,
+      "timing": "State-driven holds. Cast preparation advances over the spell duration, with a 0.15-second release hold.",
+      "optimization": "Local WebP with alpha, nearest-neighbor canvas sampling",
+      "states": {
+        "combatIdle": 0,
+        "castGather": 1,
+        "castRaise": 2,
+        "castRelease": 3,
+        "ultimateRelease": 4,
+        "hurt": 5,
+        "dodge": 6,
+        "victory": 7
+      }
+    },
+    {
+      "file": "../103d8d30cd60c1.webp",
+      "kind": "existing game asset",
+      "frameSize": [
+        129,
+        159
+      ],
+      "layout": "8 columns, animation-state and direction rows",
+      "loop": true,
+      "states": [
+        "walk",
+        "run"
+      ],
+      "timing": "Reuses existing animation frame counts and CYC timing.",
+      "pivot": "Existing drawHero foot anchor",
+      "collision": "Battle deck footprint",
+      "optimization": "Existing preloaded WebP atlas",
+      "framesPerDirection": 8
+    },
+    {
+      "file": "skill-reference/abyssal_roar.webp",
+      "kind": "eight-frame atlas extracted from supplied Bakunawa skill-sheet artwork",
+      "frameSize": [
+        468,
+        468
+      ],
+      "frames": 8,
+      "layout": [
+        8,
+        1
+      ],
+      "fps": 8,
+      "pivot": [
+        234,
+        234
+      ],
+      "loop": false,
+      "events": {
+        "warningFrames": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "impactFrames": [
+          4,
+          5,
+          6,
+          7
+        ]
+      },
+      "collision": "existing burst hazard and impact timing; artwork has no collision",
+      "compositing": "screen blend over existing boss and ocean; source matte is approximate"
+    },
+    {
+      "file": "skill-reference/tidal_cataclysm.webp",
+      "kind": "eight-frame atlas extracted from supplied Bakunawa skill-sheet artwork",
+      "frameSize": [
+        468,
+        468
+      ],
+      "frames": 8,
+      "layout": [
+        8,
+        1
+      ],
+      "fps": 8,
+      "pivot": [
+        234,
+        234
+      ],
+      "loop": false,
+      "events": {
+        "warningFrames": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "impactFrames": [
+          4,
+          5,
+          6,
+          7
+        ]
+      },
+      "collision": "existing stripe hazard and impact timing; artwork has no collision",
+      "compositing": "screen blend over existing dock and water; source matte is approximate"
+    },
+    {
+      "file": "skill-reference/maelstrom_prison.webp",
+      "kind": "eight-frame atlas extracted from supplied Bakunawa skill-sheet artwork",
+      "frameSize": [
+        468,
+        468
+      ],
+      "frames": 8,
+      "layout": [
+        8,
+        1
+      ],
+      "fps": 8,
+      "pivot": [
+        234,
+        234
+      ],
+      "loop": false,
+      "events": {
+        "warningFrames": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "impactFrames": [
+          4,
+          5,
+          6,
+          7
+        ]
+      },
+      "collision": "existing vortex hazard, pull, and impact timing; artwork has no collision",
+      "compositing": "screen blend over target and water; source matte is approximate"
+    },
+    {
+      "file": "skill-reference/stormfang_lightning.webp",
+      "kind": "eight-frame atlas extracted from supplied Bakunawa skill-sheet artwork",
+      "frameSize": [
+        468,
+        468
+      ],
+      "frames": 8,
+      "layout": [
+        8,
+        1
+      ],
+      "fps": 8,
+      "pivot": [
+        234,
+        234
+      ],
+      "loop": false,
+      "events": {
+        "warningFrames": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "impactFrames": [
+          4,
+          5,
+          6,
+          7
+        ]
+      },
+      "collision": "existing lightning target and impact timing; artwork has no collision",
+      "compositing": "screen blend over boss and target; source matte is approximate"
+    }
+  ],
+  "procedural": {
+    "boss": {
+      "file": "tideborn.webp",
+      "kind": "generated transparent head and neck with procedural motion",
+      "jawPivotSource": [
+        513,
+        647
+      ],
+      "worldPivot": [
+        1100,
+        452
+      ],
+      "collision": "Homing spell target anchored at [850,322] plus boss visual offset",
+      "states": [
+        "emerge",
+        "idle",
+        "tell",
+        "impact",
+        "recover",
+        "enrage",
+        "sinking",
+        "won",
+        "lost"
+      ],
+      "specialOverlays": [
+        "jaw articulation",
+        "rear coil sway",
+        "eye pulse",
+        "hit glow",
+        "neck spray mask"
+      ]
+    },
+    "water": {
+      "states": [
+        "far currents",
+        "front crests",
+        "foam spray",
+        "wave",
+        "vortex",
+        "abyss"
+      ],
+      "timing": "Two independently animated crest sprite instances, scrolling far currents and simulation-clock-driven foam spray and attack overlays.",
+      "collision": "Visual water does not collide. The floor polygon constrains walking.",
+      "file": "crest.webp"
+    },
+    "magic": {
+      "states": [
+        "bolt",
+        "charge",
+        "shield",
+        "dodge",
+        "ultimate",
+        "launch",
+        "hit"
+      ],
+      "timing": "Driven by spell cast, projectile travel, and defense timers in combat.mjs",
+      "collision": "Attack areas are calculated in combat.mjs."
+    },
+    "lights": {
+      "states": [
+        "lantern flicker",
+        "enrage aura",
+        "spell reflection"
+      ],
+      "timing": "Continuous animation and phase-driven glow"
+    },
+    "bossDefeatCinematic": {
+      "states": [
+        "victoryCharge",
+        "astralJudgmentBeam",
+        "bossRecoil",
+        "oceanSubmersion",
+        "victoryHold"
+      ],
+      "durationSeconds": 5.65,
+      "events": {
+        "1.58": "victoryStrike",
+        "3.2": "bossFallen",
+        "5.65": "won"
+      },
+      "composition": "Yhannie uses the existing ultimate cast poses while a layered violet-cyan beam, impact rings, particles, camera shake, and water reflection play. Bakunawa remains visible through the strike, recoils, then submerges before the result overlay.",
+      "dialogue": "Timed subtitles; no recorded voice audio.",
+      "mobileFallback": "Reduce particle counts with the existing LOW quality setting; preserve timing and damage state."
+    }
+  },
+  "sheetCoverage": "Four reference-extracted eight-frame Bakunawa skill atlases (Abyssal Roar, Tidal Cataclysm, Maelstrom Prison, Stormfang Lightning) run in the boss attack phases. Boss idle motion, water ambience, player spells, and lighting remain procedural. Boss defeat now plays a 5.65-second cinematic using existing Yhannie combat poses and procedural magic/water effects, with Bakunawa visible through the finishing hit and sink."
+}

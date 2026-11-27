@@ -1,0 +1,22 @@
+// Normalized image-space pivots measured at the bottom of the exported silhouettes.
+export const PIVOTS = {
+  'bakery': [0.5000, 0.9812],
+  'fish-shop': [0.5000, 0.9812],
+  'lantern-shop': [0.5000, 0.9812],
+  'repair-shop': [0.5000, 0.9812],
+  'crate': [0.5278, 0.9593],
+  'lamp': [0.3125, 0.9727],
+  'planter': [0.5000, 0.9607],
+  'bollard': [0.5000, 0.9493],
+  'stall': [0.5000, 0.9733],
+  'bench': [0.5041, 0.9593],
+  'mara': [0.5000, 0.9551],
+  'iko': [0.5000, 0.9551],
+  'tala': [0.5000, 0.9551],
+  'berto': [0.5000, 0.9551],
+  'sani': [0.5000, 0.9551],
+  'palm': [0.3944, 0.9812],
+  'leaves': [0.5000, 0.9635],
+  'bangka': [0.5000, 0.9727],
+  'lighthouse': [0.5000, 0.9830],
+};

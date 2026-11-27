@@ -1,0 +1,1 @@
+Reviewed seafood terrace against overlay. Cleared phantom rectangles (416,728)-(424,752), (468,728)-(476,752) on planks and corrected pavement polygon above diagonal seawall. Kept umbrella/table/chair/barrel and seawall collision. 96 blocked cells opened. No device walkthrough performed.

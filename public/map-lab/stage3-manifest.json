@@ -1,0 +1,262 @@
+{
+  "sourceImage": "public/assets/85831fd94f7e47.webp",
+  "worldSize": [
+    1536,
+    1024
+  ],
+  "sourceResolution": [
+    3072,
+    2048
+  ],
+  "method": "pixel-aligned source crops with manually estimated polygon alpha masks",
+  "newLayers": [
+    {
+      "n": "lighthouse_upper",
+      "x": 38,
+      "y": 135,
+      "w": 57,
+      "h": 64,
+      "base": 202,
+      "src": "assets/layer25d-stage3-lighthouse_upper.png"
+    },
+    {
+      "n": "blue_dock_roof",
+      "x": 798,
+      "y": 731,
+      "w": 154,
+      "h": 81,
+      "base": 818,
+      "src": "assets/layer25d-stage3-blue_dock_roof.png"
+    },
+    {
+      "n": "dock_umbrella_red",
+      "x": 260,
+      "y": 650,
+      "w": 53,
+      "h": 28,
+      "base": 684,
+      "src": "assets/layer25d-stage3-dock_umbrella_red.png"
+    },
+    {
+      "n": "dock_umbrella_blue",
+      "x": 329,
+      "y": 649,
+      "w": 57,
+      "h": 32,
+      "base": 687,
+      "src": "assets/layer25d-stage3-dock_umbrella_blue.png"
+    },
+    {
+      "n": "harbor_boat_cabin",
+      "x": 1327,
+      "y": 779,
+      "w": 105,
+      "h": 88,
+      "base": 879,
+      "src": "assets/layer25d-stage3-harbor_boat_cabin.png"
+    }
+  ],
+  "maskPolygons": [
+    {
+      "name": "lighthouse_upper",
+      "polygon": [
+        [
+          38,
+          148
+        ],
+        [
+          45,
+          137
+        ],
+        [
+          63,
+          135
+        ],
+        [
+          81,
+          146
+        ],
+        [
+          92,
+          160
+        ],
+        [
+          94,
+          195
+        ],
+        [
+          82,
+          198
+        ],
+        [
+          80,
+          174
+        ],
+        [
+          43,
+          174
+        ],
+        [
+          38,
+          194
+        ]
+      ],
+      "base": 202,
+      "category": "landmark"
+    },
+    {
+      "name": "blue_dock_roof",
+      "polygon": [
+        [
+          798,
+          758
+        ],
+        [
+          839,
+          731
+        ],
+        [
+          884,
+          731
+        ],
+        [
+          931,
+          757
+        ],
+        [
+          951,
+          763
+        ],
+        [
+          951,
+          811
+        ],
+        [
+          802,
+          811
+        ]
+      ],
+      "base": 818,
+      "category": "roof"
+    },
+    {
+      "name": "dock_umbrella_red",
+      "polygon": [
+        [
+          261,
+          664
+        ],
+        [
+          269,
+          654
+        ],
+        [
+          279,
+          650
+        ],
+        [
+          296,
+          651
+        ],
+        [
+          311,
+          664
+        ],
+        [
+          312,
+          677
+        ],
+        [
+          260,
+          677
+        ]
+      ],
+      "base": 684,
+      "category": "canopy"
+    },
+    {
+      "name": "dock_umbrella_blue",
+      "polygon": [
+        [
+          330,
+          666
+        ],
+        [
+          340,
+          653
+        ],
+        [
+          354,
+          649
+        ],
+        [
+          369,
+          653
+        ],
+        [
+          385,
+          666
+        ],
+        [
+          385,
+          680
+        ],
+        [
+          329,
+          680
+        ]
+      ],
+      "base": 687,
+      "category": "canopy"
+    },
+    {
+      "name": "harbor_boat_cabin",
+      "polygon": [
+        [
+          1327,
+          805
+        ],
+        [
+          1338,
+          780
+        ],
+        [
+          1367,
+          779
+        ],
+        [
+          1378,
+          787
+        ],
+        [
+          1419,
+          787
+        ],
+        [
+          1431,
+          807
+        ],
+        [
+          1431,
+          866
+        ],
+        [
+          1327,
+          866
+        ]
+      ],
+      "base": 879,
+      "category": "boat"
+    }
+  ],
+  "disableNewLayers": "?layers25d3=off",
+  "disableEarlierLayers": "?layers25d=off",
+  "collisionChanges": false,
+  "saveChanges": false,
+  "accuracy": "provisional; requires gameplay walking/visual QA",
+  "knownLimitations": [
+    "Foreground masks may accidentally cover a neighbor area until reviewed.",
+    "Underlying map remains intact; duplicate source pixels may produce edge halos.",
+    "No actual 3D meshes or new AI detail; source resolution is preserved."
+  ]
+}

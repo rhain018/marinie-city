@@ -1,0 +1,613 @@
+{
+  "generated": [
+    "yhannie-combat.webp",
+    "tideborn.webp",
+    "crest.webp",
+    "dock.webp"
+  ],
+  "existing": [
+    "HA.SPR.yhannie walk/run atlas"
+  ],
+  "targetSheets": [
+    {
+      "file": "yhannie-idle.webp",
+      "state": "idle",
+      "frameSize": [
+        256,
+        256
+      ],
+      "frames": 8,
+      "rows": 2,
+      "columns": 6,
+      "fps": 10,
+      "loop": true,
+      "pivot": [
+        128,
+        229
+      ],
+      "collision": "Ground anchor with 11-unit collision inset",
+      "texture": "WebP alpha with transparent padding and nearest-neighbor sampling",
+      "status": "Specification only. No file generated."
+    },
+    {
+      "file": "yhannie-magic_cast.webp",
+      "state": "magic_cast",
+      "frameSize": [
+        256,
+        256
+      ],
+      "frames": 12,
+      "rows": 2,
+      "columns": 6,
+      "fps": 18,
+      "loop": false,
+      "pivot": [
+        128,
+        229
+      ],
+      "collision": "Ground anchor with 11-unit collision inset",
+      "texture": "WebP alpha with transparent padding and nearest-neighbor sampling",
+      "status": "Specification only. No file generated."
+    },
+    {
+      "file": "yhannie-magic_charge.webp",
+      "state": "magic_charge",
+      "frameSize": [
+        256,
+        256
+      ],
+      "frames": 12,
+      "rows": 2,
+      "columns": 6,
+      "fps": 16,
+      "loop": false,
+      "pivot": [
+        128,
+        229
+      ],
+      "collision": "Ground anchor with 11-unit collision inset",
+      "texture": "WebP alpha with transparent padding and nearest-neighbor sampling",
+      "status": "Specification only. No file generated."
+    },
+    {
+      "file": "yhannie-shield.webp",
+      "state": "shield",
+      "frameSize": [
+        256,
+        256
+      ],
+      "frames": 10,
+      "rows": 2,
+      "columns": 6,
+      "fps": 15,
+      "loop": false,
+      "pivot": [
+        128,
+        229
+      ],
+      "collision": "Ground anchor with 11-unit collision inset",
+      "texture": "WebP alpha with transparent padding and nearest-neighbor sampling",
+      "status": "Specification only. No file generated."
+    },
+    {
+      "file": "yhannie-dodge.webp",
+      "state": "dodge",
+      "frameSize": [
+        256,
+        256
+      ],
+      "frames": 8,
+      "rows": 2,
+      "columns": 6,
+      "fps": 24,
+      "loop": false,
+      "pivot": [
+        128,
+        229
+      ],
+      "collision": "Ground anchor with 11-unit collision inset",
+      "texture": "WebP alpha with transparent padding and nearest-neighbor sampling",
+      "status": "Specification only. No file generated."
+    },
+    {
+      "file": "yhannie-hurt.webp",
+      "state": "hurt",
+      "frameSize": [
+        256,
+        256
+      ],
+      "frames": 6,
+      "rows": 1,
+      "columns": 6,
+      "fps": 18,
+      "loop": false,
+      "pivot": [
+        128,
+        229
+      ],
+      "collision": "Ground anchor with 11-unit collision inset",
+      "texture": "WebP alpha with transparent padding and nearest-neighbor sampling",
+      "status": "Specification only. No file generated."
+    },
+    {
+      "file": "yhannie-knockback.webp",
+      "state": "knockback",
+      "frameSize": [
+        256,
+        256
+      ],
+      "frames": 6,
+      "rows": 1,
+      "columns": 6,
+      "fps": 18,
+      "loop": false,
+      "pivot": [
+        128,
+        229
+      ],
+      "collision": "Ground anchor with 11-unit collision inset",
+      "texture": "WebP alpha with transparent padding and nearest-neighbor sampling",
+      "status": "Specification only. No file generated."
+    },
+    {
+      "file": "yhannie-ultimate.webp",
+      "state": "ultimate",
+      "frameSize": [
+        256,
+        256
+      ],
+      "frames": 20,
+      "rows": 4,
+      "columns": 6,
+      "fps": 20,
+      "loop": false,
+      "pivot": [
+        128,
+        229
+      ],
+      "collision": "Ground anchor with 11-unit collision inset",
+      "texture": "WebP alpha with transparent padding and nearest-neighbor sampling",
+      "status": "Specification only. No file generated."
+    },
+    {
+      "file": "yhannie-victory.webp",
+      "state": "victory",
+      "frameSize": [
+        256,
+        256
+      ],
+      "frames": 8,
+      "rows": 2,
+      "columns": 6,
+      "fps": 10,
+      "loop": false,
+      "pivot": [
+        128,
+        229
+      ],
+      "collision": "Ground anchor with 11-unit collision inset",
+      "texture": "WebP alpha with transparent padding and nearest-neighbor sampling",
+      "status": "Specification only. No file generated."
+    },
+    {
+      "file": "yhannie-defeat.webp",
+      "state": "defeat",
+      "frameSize": [
+        256,
+        256
+      ],
+      "frames": 8,
+      "rows": 2,
+      "columns": 6,
+      "fps": 10,
+      "loop": false,
+      "pivot": [
+        128,
+        229
+      ],
+      "collision": "Ground anchor with 11-unit collision inset",
+      "texture": "WebP alpha with transparent padding and nearest-neighbor sampling",
+      "status": "Specification only. No file generated."
+    },
+    {
+      "file": "bakunawa-idle.webp",
+      "state": "idle",
+      "frameSize": [
+        512,
+        384
+      ],
+      "frames": 12,
+      "rows": 2,
+      "columns": 6,
+      "fps": 12,
+      "loop": true,
+      "pivot": [
+        350,
+        345
+      ],
+      "collision": "Homing target defined in combat.mjs",
+      "texture": "WebP alpha with transparent padding and nearest-neighbor sampling",
+      "status": "Specification only. No file generated."
+    },
+    {
+      "file": "bakunawa-roar.webp",
+      "state": "roar",
+      "frameSize": [
+        512,
+        384
+      ],
+      "frames": 12,
+      "rows": 2,
+      "columns": 6,
+      "fps": 15,
+      "loop": false,
+      "pivot": [
+        350,
+        345
+      ],
+      "collision": "Homing target defined in combat.mjs",
+      "texture": "WebP alpha with transparent padding and nearest-neighbor sampling",
+      "status": "Specification only. No file generated."
+    },
+    {
+      "file": "bakunawa-bite.webp",
+      "state": "bite",
+      "frameSize": [
+        512,
+        384
+      ],
+      "frames": 10,
+      "rows": 2,
+      "columns": 6,
+      "fps": 20,
+      "loop": false,
+      "pivot": [
+        350,
+        345
+      ],
+      "collision": "Homing target defined in combat.mjs",
+      "texture": "WebP alpha with transparent padding and nearest-neighbor sampling",
+      "status": "Specification only. No file generated."
+    },
+    {
+      "file": "bakunawa-water_attack.webp",
+      "state": "water_attack",
+      "frameSize": [
+        512,
+        384
+      ],
+      "frames": 16,
+      "rows": 3,
+      "columns": 6,
+      "fps": 16,
+      "loop": false,
+      "pivot": [
+        350,
+        345
+      ],
+      "collision": "Homing target defined in combat.mjs",
+      "texture": "WebP alpha with transparent padding and nearest-neighbor sampling",
+      "status": "Specification only. No file generated."
+    },
+    {
+      "file": "bakunawa-tidal_wave.webp",
+      "state": "tidal_wave",
+      "frameSize": [
+        512,
+        384
+      ],
+      "frames": 16,
+      "rows": 3,
+      "columns": 6,
+      "fps": 16,
+      "loop": false,
+      "pivot": [
+        350,
+        345
+      ],
+      "collision": "Homing target defined in combat.mjs",
+      "texture": "WebP alpha with transparent padding and nearest-neighbor sampling",
+      "status": "Specification only. No file generated."
+    },
+    {
+      "file": "bakunawa-vortex.webp",
+      "state": "vortex",
+      "frameSize": [
+        512,
+        384
+      ],
+      "frames": 16,
+      "rows": 3,
+      "columns": 6,
+      "fps": 16,
+      "loop": false,
+      "pivot": [
+        350,
+        345
+      ],
+      "collision": "Homing target defined in combat.mjs",
+      "texture": "WebP alpha with transparent padding and nearest-neighbor sampling",
+      "status": "Specification only. No file generated."
+    },
+    {
+      "file": "bakunawa-tail_sweep.webp",
+      "state": "tail_sweep",
+      "frameSize": [
+        512,
+        384
+      ],
+      "frames": 12,
+      "rows": 2,
+      "columns": 6,
+      "fps": 16,
+      "loop": false,
+      "pivot": [
+        350,
+        345
+      ],
+      "collision": "Homing target defined in combat.mjs",
+      "texture": "WebP alpha with transparent padding and nearest-neighbor sampling",
+      "status": "Specification only. No file generated."
+    },
+    {
+      "file": "bakunawa-stagger.webp",
+      "state": "stagger",
+      "frameSize": [
+        512,
+        384
+      ],
+      "frames": 8,
+      "rows": 2,
+      "columns": 6,
+      "fps": 18,
+      "loop": false,
+      "pivot": [
+        350,
+        345
+      ],
+      "collision": "Homing target defined in combat.mjs",
+      "texture": "WebP alpha with transparent padding and nearest-neighbor sampling",
+      "status": "Specification only. No file generated."
+    },
+    {
+      "file": "bakunawa-enraged.webp",
+      "state": "enraged",
+      "frameSize": [
+        512,
+        384
+      ],
+      "frames": 16,
+      "rows": 3,
+      "columns": 6,
+      "fps": 16,
+      "loop": false,
+      "pivot": [
+        350,
+        345
+      ],
+      "collision": "Homing target defined in combat.mjs",
+      "texture": "WebP alpha with transparent padding and nearest-neighbor sampling",
+      "status": "Specification only. No file generated."
+    },
+    {
+      "file": "bakunawa-ultimate.webp",
+      "state": "ultimate",
+      "frameSize": [
+        512,
+        384
+      ],
+      "frames": 20,
+      "rows": 4,
+      "columns": 6,
+      "fps": 18,
+      "loop": false,
+      "pivot": [
+        350,
+        345
+      ],
+      "collision": "Homing target defined in combat.mjs",
+      "texture": "WebP alpha with transparent padding and nearest-neighbor sampling",
+      "status": "Specification only. No file generated."
+    },
+    {
+      "file": "bakunawa-defeat.webp",
+      "state": "defeat",
+      "frameSize": [
+        512,
+        384
+      ],
+      "frames": 24,
+      "rows": 4,
+      "columns": 6,
+      "fps": 14,
+      "loop": false,
+      "pivot": [
+        350,
+        345
+      ],
+      "collision": "Homing target defined in combat.mjs",
+      "texture": "WebP alpha with transparent padding and nearest-neighbor sampling",
+      "status": "Specification only. No file generated."
+    },
+    {
+      "file": "water-water_loop.webp",
+      "state": "water_loop",
+      "frameSize": [
+        320,
+        160
+      ],
+      "frames": 16,
+      "rows": 3,
+      "columns": 6,
+      "fps": 14,
+      "loop": true,
+      "pivot": [
+        160,
+        141
+      ],
+      "collision": "None. Gameplay hazards defined in combat.mjs.",
+      "texture": "WebP alpha with transparent padding and nearest-neighbor sampling",
+      "status": "Specification only. No file generated."
+    },
+    {
+      "file": "water-wave_crest.webp",
+      "state": "wave_crest",
+      "frameSize": [
+        320,
+        160
+      ],
+      "frames": 12,
+      "rows": 2,
+      "columns": 6,
+      "fps": 16,
+      "loop": true,
+      "pivot": [
+        160,
+        141
+      ],
+      "collision": "None. Gameplay hazards defined in combat.mjs.",
+      "texture": "WebP alpha with transparent padding and nearest-neighbor sampling",
+      "status": "Specification only. No file generated."
+    },
+    {
+      "file": "water-splash.webp",
+      "state": "splash",
+      "frameSize": [
+        320,
+        160
+      ],
+      "frames": 8,
+      "rows": 2,
+      "columns": 6,
+      "fps": 20,
+      "loop": false,
+      "pivot": [
+        160,
+        141
+      ],
+      "collision": "None. Gameplay hazards defined in combat.mjs.",
+      "texture": "WebP alpha with transparent padding and nearest-neighbor sampling",
+      "status": "Specification only. No file generated."
+    },
+    {
+      "file": "water-foam.webp",
+      "state": "foam",
+      "frameSize": [
+        320,
+        160
+      ],
+      "frames": 12,
+      "rows": 2,
+      "columns": 6,
+      "fps": 14,
+      "loop": true,
+      "pivot": [
+        160,
+        141
+      ],
+      "collision": "None. Gameplay hazards defined in combat.mjs.",
+      "texture": "WebP alpha with transparent padding and nearest-neighbor sampling",
+      "status": "Specification only. No file generated."
+    },
+    {
+      "file": "water-vortex.webp",
+      "state": "vortex",
+      "frameSize": [
+        320,
+        160
+      ],
+      "frames": 16,
+      "rows": 3,
+      "columns": 6,
+      "fps": 16,
+      "loop": true,
+      "pivot": [
+        160,
+        141
+      ],
+      "collision": "None. Gameplay hazards defined in combat.mjs.",
+      "texture": "WebP alpha with transparent padding and nearest-neighbor sampling",
+      "status": "Specification only. No file generated."
+    },
+    {
+      "file": "fx-magic_circle.webp",
+      "state": "magic_circle",
+      "frameSize": [
+        128,
+        128
+      ],
+      "frames": 12,
+      "rows": 2,
+      "columns": 6,
+      "fps": 16,
+      "loop": true,
+      "pivot": [
+        64,
+        64
+      ],
+      "collision": "None. Spell contact is calculated separately.",
+      "texture": "WebP alpha with transparent padding and nearest-neighbor sampling",
+      "status": "Specification only. No file generated."
+    },
+    {
+      "file": "fx-magic_projectile.webp",
+      "state": "magic_projectile",
+      "frameSize": [
+        128,
+        128
+      ],
+      "frames": 8,
+      "rows": 2,
+      "columns": 6,
+      "fps": 18,
+      "loop": true,
+      "pivot": [
+        64,
+        64
+      ],
+      "collision": "None. Spell contact is calculated separately.",
+      "texture": "WebP alpha with transparent padding and nearest-neighbor sampling",
+      "status": "Specification only. No file generated."
+    },
+    {
+      "file": "fx-magic_impact.webp",
+      "state": "magic_impact",
+      "frameSize": [
+        128,
+        128
+      ],
+      "frames": 12,
+      "rows": 2,
+      "columns": 6,
+      "fps": 20,
+      "loop": false,
+      "pivot": [
+        64,
+        64
+      ],
+      "collision": "None. Spell contact is calculated separately.",
+      "texture": "WebP alpha with transparent padding and nearest-neighbor sampling",
+      "status": "Specification only. No file generated."
+    },
+    {
+      "file": "fx-lantern_flame.webp",
+      "state": "lantern_flame",
+      "frameSize": [
+        128,
+        128
+      ],
+      "frames": 8,
+      "rows": 2,
+      "columns": 6,
+      "fps": 10,
+      "loop": true,
+      "pivot": [
+        64,
+        64
+      ],
+      "collision": "None. Spell contact is calculated separately.",
+      "texture": "WebP alpha with transparent padding and nearest-neighbor sampling",
+      "status": "Specification only. No file generated."
+    }
+  ]
+}

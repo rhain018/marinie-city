@@ -1,0 +1,272 @@
+[
+  {
+    "id": "rusty",
+    "name": "Rusty",
+    "role": "Shipwright",
+    "appearance": "Goggles, grey beard and a tool-filled work vest.",
+    "behavior": "Quiet and practical; repairs wooden hulls with rhythmic hammer strikes.",
+    "action": "repair",
+    "position": [
+      1038,
+      746
+    ],
+    "directionSprites": [
+      "assets/npc-new/rusty-down.webp",
+      "assets/npc-new/rusty-left.webp",
+      "assets/npc-new/rusty-right.webp",
+      "assets/npc-new/rusty-up.webp"
+    ]
+  },
+  {
+    "id": "lira",
+    "name": "Lira",
+    "role": "Bookseller",
+    "appearance": "Round glasses, a flower-trimmed straw hat and a book satchel.",
+    "behavior": "Reads and turns pages; dreams of visiting every island.",
+    "action": "read",
+    "position": [
+      322,
+      290
+    ],
+    "directionSprites": [
+      "assets/npc-new/lira-down.webp",
+      "assets/npc-new/lira-left.webp",
+      "assets/npc-new/lira-right.webp",
+      "assets/npc-new/lira-up.webp"
+    ]
+  },
+  {
+    "id": "kairo",
+    "name": "Kairo",
+    "role": "Tide Watcher",
+    "appearance": "Dark blue hair, sea-worn clothes and a thoughtful pose.",
+    "behavior": "Scans the horizon and quietly counts the rhythm of the tide.",
+    "action": "tide",
+    "position": [
+      702,
+      390
+    ],
+    "directionSprites": [
+      "assets/npc-new/kairo-down.webp",
+      "assets/npc-new/kairo-left.webp",
+      "assets/npc-new/kairo-right.webp",
+      "assets/npc-new/kairo-up.webp"
+    ]
+  },
+  {
+    "id": "sora",
+    "name": "Sora",
+    "role": "Ship Chandler",
+    "appearance": "Green hair, white cap and an oversized supply backpack.",
+    "behavior": "Cheerfully checks rope, lantern and food stock.",
+    "action": "stock",
+    "position": [
+      1190,
+      586
+    ],
+    "directionSprites": [
+      "assets/npc-new/sora-down.webp",
+      "assets/npc-new/sora-left.webp",
+      "assets/npc-new/sora-right.webp",
+      "assets/npc-new/sora-up.webp"
+    ]
+  },
+  {
+    "id": "vargas",
+    "name": "Vargas",
+    "role": "Fish Auctioneer",
+    "appearance": "Red bandana, muscular build, apron and a loud port-side manner.",
+    "behavior": "Calls the catch and scans the crowd with energetic gestures.",
+    "action": "auction",
+    "position": [
+      1278,
+      598
+    ],
+    "directionSprites": [
+      "assets/npc-new/vargas-down.webp",
+      "assets/npc-new/vargas-left.webp",
+      "assets/npc-new/vargas-right.webp",
+      "assets/npc-new/vargas-up.webp"
+    ]
+  },
+  {
+    "id": "selene",
+    "name": "Selene",
+    "role": "Lighthouse Keeper",
+    "appearance": "Pale hair, long navy coat and brass lantern details.",
+    "behavior": "Maintains the light and inspects her lantern at dusk.",
+    "action": "lantern",
+    "position": [
+      238,
+      304
+    ],
+    "directionSprites": [
+      "assets/npc-new/selene-down.webp",
+      "assets/npc-new/selene-left.webp",
+      "assets/npc-new/selene-right.webp",
+      "assets/npc-new/selene-up.webp"
+    ]
+  },
+  {
+    "id": "bobong",
+    "name": "Bobong",
+    "role": "Fisherman",
+    "appearance": "Friendly moustache, sturdy overalls and fishing gear.",
+    "behavior": "Casts from the pier and gently reels when the float dips.",
+    "action": "fish",
+    "position": [
+      306,
+      706
+    ],
+    "directionSprites": [
+      "assets/npc-new/bobong-down.webp",
+      "assets/npc-new/bobong-left.webp",
+      "assets/npc-new/bobong-right.webp",
+      "assets/npc-new/bobong-up.webp"
+    ]
+  },
+  {
+    "id": "mari",
+    "name": "Mari",
+    "role": "Blacksmith Apprentice",
+    "appearance": "Purple hair, brass goggles and a leather work apron.",
+    "behavior": "Practises careful tool strikes and learns from Torin.",
+    "action": "forge",
+    "position": [
+      1074,
+      618
+    ],
+    "directionSprites": [
+      "assets/npc-new/mari-down.webp",
+      "assets/npc-new/mari-left.webp",
+      "assets/npc-new/mari-right.webp",
+      "assets/npc-new/mari-up.webp"
+    ]
+  },
+  {
+    "id": "tulip",
+    "name": "Tulip",
+    "role": "Florist",
+    "appearance": "Flower-covered hat, warm hair and a bright bouquet.",
+    "behavior": "Sorts flowers and arranges a fresh bunch for the port.",
+    "action": "flowers",
+    "position": [
+      418,
+      286
+    ],
+    "directionSprites": [
+      "assets/npc-new/tulip-down.webp",
+      "assets/npc-new/tulip-left.webp",
+      "assets/npc-new/tulip-right.webp",
+      "assets/npc-new/tulip-up.webp"
+    ]
+  },
+  {
+    "id": "kelvin",
+    "name": "Kelvin",
+    "role": "Tea Merchant",
+    "appearance": "Glasses, dark hair, long coat and a travelling tea case.",
+    "behavior": "Carefully pours tea and enjoys conversation more than bargaining.",
+    "action": "tea",
+    "position": [
+      870,
+      298
+    ],
+    "directionSprites": [
+      "assets/npc-new/kelvin-down.webp",
+      "assets/npc-new/kelvin-left.webp",
+      "assets/npc-new/kelvin-right.webp",
+      "assets/npc-new/kelvin-up.webp"
+    ]
+  },
+  {
+    "id": "milo",
+    "name": "Milo",
+    "role": "Cat Lover",
+    "appearance": "Cat-eared cap, soft expression and a packed shoulder bag.",
+    "behavior": "Crouches to feed a small stray and lets it approach at its own pace.",
+    "action": "care",
+    "position": [
+      258,
+      550
+    ],
+    "directionSprites": [
+      "assets/npc-new/milo-down.webp",
+      "assets/npc-new/milo-left.webp",
+      "assets/npc-new/milo-right.webp",
+      "assets/npc-new/milo-up.webp"
+    ]
+  },
+  {
+    "id": "bell",
+    "name": "Bell",
+    "role": "Postal Worker",
+    "appearance": "Blue postal cap, envelope and a practical mail satchel.",
+    "behavior": "Patrols the plaza and checks letters at delivery stops.",
+    "action": "deliver",
+    "position": [
+      634,
+      310
+    ],
+    "directionSprites": [
+      "assets/npc-new/bell-down.webp",
+      "assets/npc-new/bell-left.webp",
+      "assets/npc-new/bell-right.webp",
+      "assets/npc-new/bell-up.webp"
+    ]
+  },
+  {
+    "id": "hana",
+    "name": "Dr. Hana",
+    "role": "Veterinarian",
+    "appearance": "Glasses, white veterinary coat and animal-care supplies.",
+    "behavior": "Kneels for a gentle animal check and keeps her tools tidy.",
+    "action": "heal",
+    "position": [
+      530,
+      306
+    ],
+    "directionSprites": [
+      "assets/npc-new/hana-down.webp",
+      "assets/npc-new/hana-left.webp",
+      "assets/npc-new/hana-right.webp",
+      "assets/npc-new/hana-up.webp"
+    ]
+  },
+  {
+    "id": "ziggy",
+    "name": "Ziggy",
+    "role": "Boat Repair Kid",
+    "appearance": "Spiky blond hair, oversized goggles and a small tool kit.",
+    "behavior": "Tests a loose fitting with quick, curious repair motions.",
+    "action": "repair",
+    "position": [
+      1162,
+      734
+    ],
+    "directionSprites": [
+      "assets/npc-new/ziggy-down.webp",
+      "assets/npc-new/ziggy-left.webp",
+      "assets/npc-new/ziggy-right.webp",
+      "assets/npc-new/ziggy-up.webp"
+    ]
+  },
+  {
+    "id": "luna",
+    "name": "Luna",
+    "role": "Street Performer",
+    "appearance": "Red headscarf, dark hair and a well-loved acoustic guitar.",
+    "behavior": "Sways and strums; music notes drift above her while she performs.",
+    "action": "perform",
+    "position": [
+      978,
+      638
+    ],
+    "directionSprites": [
+      "assets/npc-new/luna-down.webp",
+      "assets/npc-new/luna-left.webp",
+      "assets/npc-new/luna-right.webp",
+      "assets/npc-new/luna-up.webp"
+    ]
+  }
+]

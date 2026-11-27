@@ -1,0 +1,1 @@
+Removed collision fallback that displaced the hero sideways up to 3px per 120Hz tick when blocked. Kept axis sliding. Blocked manual movement now clears velocity and walking animation. Regression checks: 500 repeated wall pushes cause no drift; diagonal sliding and unobstructed travel still work. Screenshot positions overlap visible rack/obstacles; their collision remains solid.

@@ -1,0 +1,617 @@
+{
+  "revision": 9,
+  "world": [
+    1536,
+    864
+  ],
+  "segments": [
+    {
+      "name": "cafe terrace front",
+      "walk": false,
+      "rect": [
+        196,
+        318,
+        479,
+        331
+      ]
+    },
+    {
+      "name": "plaza balcony west return",
+      "walk": false,
+      "rect": [
+        801,
+        330,
+        813,
+        374
+      ]
+    },
+    {
+      "name": "plaza balcony front",
+      "walk": false,
+      "rect": [
+        808,
+        354,
+        982,
+        366
+      ]
+    },
+    {
+      "name": "plaza balcony east endpost",
+      "walk": false,
+      "rect": [
+        975,
+        350,
+        987,
+        366
+      ]
+    },
+    {
+      "name": "plaza bridge front",
+      "walk": false,
+      "rect": [
+        600,
+        410,
+        813,
+        428
+      ]
+    },
+    {
+      "name": "plaza west stairs left",
+      "walk": false,
+      "rect": [
+        520,
+        410,
+        533,
+        529
+      ]
+    },
+    {
+      "name": "plaza west stairs right",
+      "walk": false,
+      "rect": [
+        589,
+        414,
+        601,
+        529
+      ]
+    },
+    {
+      "name": "west cliff stairs left",
+      "walk": false,
+      "rect": [
+        101,
+        400,
+        115,
+        539
+      ]
+    },
+    {
+      "name": "west cliff stairs right",
+      "walk": false,
+      "rect": [
+        150,
+        400,
+        161,
+        539
+      ]
+    },
+    {
+      "name": "seafood front north rail",
+      "walk": false,
+      "rect": [
+        430,
+        428,
+        520,
+        445
+      ]
+    },
+    {
+      "name": "seafood east stair left",
+      "walk": false,
+      "rect": [
+        448,
+        599,
+        461,
+        650
+      ]
+    },
+    {
+      "name": "seafood east stair right",
+      "walk": false,
+      "rect": [
+        528,
+        591,
+        541,
+        678
+      ]
+    },
+    {
+      "name": "wood terrace west edge",
+      "walk": false,
+      "rect": [
+        160,
+        637,
+        174,
+        679
+      ]
+    },
+    {
+      "name": "wood terrace front west corner",
+      "walk": false,
+      "rect": [
+        164,
+        671,
+        178,
+        683
+      ]
+    },
+    {
+      "name": "wood terrace front between piers",
+      "walk": false,
+      "rect": [
+        235,
+        671,
+        266,
+        683
+      ]
+    },
+    {
+      "name": "wood terrace front east section",
+      "walk": false,
+      "rect": [
+        322,
+        671,
+        449,
+        683
+      ]
+    },
+    {
+      "name": "wood terrace front far east",
+      "walk": false,
+      "rect": [
+        533,
+        670,
+        543,
+        682
+      ]
+    },
+    {
+      "name": "west pier left side",
+      "walk": false,
+      "rect": [
+        163,
+        682,
+        177,
+        805
+      ]
+    },
+    {
+      "name": "west pier right side",
+      "walk": false,
+      "rect": [
+        229,
+        682,
+        240,
+        806
+      ]
+    },
+    {
+      "name": "west pier end",
+      "walk": false,
+      "rect": [
+        165,
+        804,
+        237,
+        813
+      ]
+    },
+    {
+      "name": "east finger pier left side",
+      "walk": false,
+      "rect": [
+        264,
+        682,
+        276,
+        806
+      ]
+    },
+    {
+      "name": "east finger pier right side",
+      "walk": false,
+      "rect": [
+        314,
+        682,
+        325,
+        806
+      ]
+    },
+    {
+      "name": "east finger pier end",
+      "walk": false,
+      "rect": [
+        266,
+        806,
+        323,
+        813
+      ]
+    },
+    {
+      "name": "harbor bridge west front",
+      "walk": false,
+      "rect": [
+        538,
+        548,
+        653,
+        575
+      ]
+    },
+    {
+      "name": "harbor bridge east front",
+      "walk": false,
+      "rect": [
+        736,
+        548,
+        805,
+        575
+      ]
+    },
+    {
+      "name": "center pier stairs left",
+      "walk": false,
+      "rect": [
+        648,
+        551,
+        662,
+        659
+      ]
+    },
+    {
+      "name": "center pier stairs right",
+      "walk": false,
+      "rect": [
+        723,
+        551,
+        736,
+        659
+      ]
+    },
+    {
+      "name": "center pier bottom edge",
+      "walk": false,
+      "rect": [
+        657,
+        657,
+        727,
+        667
+      ]
+    },
+    {
+      "name": "arcade west ladder left",
+      "walk": false,
+      "rect": [
+        872,
+        600,
+        883,
+        636
+      ]
+    },
+    {
+      "name": "arcade west ladder right",
+      "walk": false,
+      "rect": [
+        903,
+        600,
+        914,
+        636
+      ]
+    },
+    {
+      "name": "arcade south terrace front",
+      "walk": false,
+      "rect": [
+        900,
+        650,
+        1021,
+        668
+      ]
+    },
+    {
+      "name": "main dock stairs left",
+      "walk": false,
+      "rect": [
+        1023,
+        667,
+        1036,
+        719
+      ]
+    },
+    {
+      "name": "main dock stairs right",
+      "walk": false,
+      "rect": [
+        1112,
+        667,
+        1124,
+        719
+      ]
+    },
+    {
+      "name": "market east upper front",
+      "walk": false,
+      "rect": [
+        1238,
+        416,
+        1510,
+        426
+      ]
+    },
+    {
+      "name": "fishing port front edge",
+      "walk": false,
+      "rect": [
+        1163,
+        618,
+        1514,
+        635
+      ]
+    },
+    {
+      "name": "big dock east edge",
+      "walk": false,
+      "rect": [
+        1215,
+        718,
+        1227,
+        805
+      ]
+    },
+    {
+      "name": "big dock southern sea edge",
+      "walk": false,
+      "rect": [
+        792,
+        798,
+        1217,
+        808
+      ]
+    },
+    {
+      "name": "power fence east",
+      "walk": false,
+      "rect": [
+        1135,
+        178,
+        1515,
+        200
+      ]
+    },
+    {
+      "name": "hotel roof balcony",
+      "walk": false,
+      "rect": [
+        974,
+        25,
+        1100,
+        45
+      ]
+    },
+    {
+      "name": "cafe roof balcony",
+      "walk": false,
+      "rect": [
+        236,
+        45,
+        483,
+        70
+      ]
+    },
+    {
+      "name": "west lookout seawall outer",
+      "walk": false,
+      "polygon": [
+        [
+          0,
+          574
+        ],
+        [
+          90,
+          574
+        ],
+        [
+          94,
+          597
+        ],
+        [
+          163,
+          640
+        ],
+        [
+          164,
+          687
+        ],
+        [
+          0,
+          687
+        ]
+      ]
+    },
+    {
+      "name": "arcade east angled seawall",
+      "walk": false,
+      "polygon": [
+        [
+          1117,
+          657
+        ],
+        [
+          1163,
+          627
+        ],
+        [
+          1227,
+          627
+        ],
+        [
+          1227,
+          666
+        ],
+        [
+          1117,
+          666
+        ]
+      ]
+    },
+    {
+      "name": "fishing port stair corner",
+      "walk": false,
+      "polygon": [
+        [
+          1120,
+          656
+        ],
+        [
+          1164,
+          622
+        ],
+        [
+          1171,
+          627
+        ],
+        [
+          1124,
+          663
+        ]
+      ]
+    },
+    {
+      "name": "seafood terrace inner rope",
+      "walk": false,
+      "rect": [
+        254,
+        643,
+        447,
+        653
+      ]
+    },
+    {
+      "name": "seafood stairs foot rope",
+      "walk": false,
+      "rect": [
+        455,
+        644,
+        532,
+        653
+      ]
+    },
+    {
+      "name": "seafood terrace rear railing",
+      "walk": false,
+      "rect": [
+        190,
+        586,
+        448,
+        594
+      ]
+    },
+    {
+      "name": "between pots and red canopy",
+      "walk": false,
+      "rect": [
+        254,
+        595,
+        271,
+        643
+      ]
+    },
+    {
+      "name": "between blue canopy and tables",
+      "walk": false,
+      "rect": [
+        380,
+        595,
+        393,
+        643
+      ]
+    },
+    {
+      "name": "beside rear stair post",
+      "walk": false,
+      "rect": [
+        435,
+        595,
+        449,
+        643
+      ]
+    },
+    {
+      "name": "Market stair right landing rail and stone lip",
+      "walk": false,
+      "rect": [
+        1219,
+        413,
+        1320,
+        439
+      ]
+    },
+    {
+      "name": "Market stair left landing rail and stone lip",
+      "walk": false,
+      "rect": [
+        1036,
+        407,
+        1147,
+        451
+      ]
+    },
+    {
+      "name": "Market lower stair west rail",
+      "rect": [
+        1144,
+        427,
+        1154,
+        541
+      ],
+      "walk": false
+    },
+    {
+      "name": "Market lower stair east rail",
+      "rect": [
+        1216,
+        435,
+        1225,
+        543
+      ],
+      "walk": false
+    },
+    {
+      "name": "Market upper stair west side wall",
+      "rect": [
+        971,
+        273,
+        992,
+        359
+      ],
+      "walk": false
+    },
+    {
+      "name": "Market west retaining wall return above arcade",
+      "rect": [
+        974,
+        354,
+        1017,
+        397
+      ],
+      "walk": false
+    },
+    {
+      "name": "Market west terrace rail beside upper stairs",
+      "rect": [
+        816,
+        330,
+        973,
+        355
+      ],
+      "walk": false
+    }
+  ]
+}

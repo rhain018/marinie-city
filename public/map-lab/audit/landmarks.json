@@ -1,0 +1,68 @@
+{
+  "coordinateSpace": {
+    "width": 1536,
+    "height": 1024
+  },
+  "landmarks": [
+    {
+      "name": "Lighthouse",
+      "x": 75,
+      "y": 260
+    },
+    {
+      "name": "Lighthouse View",
+      "x": 370,
+      "y": 195
+    },
+    {
+      "name": "City Hall",
+      "x": 662,
+      "y": 195
+    },
+    {
+      "name": "Hotel",
+      "x": 1033,
+      "y": 156
+    },
+    {
+      "name": "Marinie Power",
+      "x": 1335,
+      "y": 125
+    },
+    {
+      "name": "Market",
+      "x": 1156,
+      "y": 379
+    },
+    {
+      "name": "Seafood",
+      "x": 340,
+      "y": 522
+    },
+    {
+      "name": "Game Shop",
+      "x": 970,
+      "y": 560
+    },
+    {
+      "name": "Central Access",
+      "x": 702,
+      "y": 560
+    },
+    {
+      "name": "West Dock",
+      "x": 293,
+      "y": 762
+    },
+    {
+      "name": "East Dock",
+      "x": 1150,
+      "y": 854
+    },
+    {
+      "name": "Fishing Port",
+      "x": 1435,
+      "y": 689
+    }
+  ]
+}
