@@ -43,3 +43,7 @@ yarn-error.log*
 
 # OS metadata
 .DS_Store
+
+# Vercel testing output
+/dist-vercel/
+/.vercel/

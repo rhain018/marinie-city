@@ -17,6 +17,10 @@ for(const [start,target] of [[[970,620],[970,590]],[[1090,620],[1090,584]],[[834
  assert.ok(Math.hypot(P.x-target[0],P.y-target[1])<4);
 }
 P.x=1007;P.y=790;for(let n=0;n<120;n++)tryMove(0,.2);assert.ok(P.y<794&&canStand(P.x,P.y),'dock foot must stop before edge');
+// Repeated pushing must stop without sideways drift, even across a long frame.
+P.x=1007;P.y=790;for(let n=0;n<500;n++)tryMove(0,2);
+assert.equal(P.x,1007);assert.ok(P.y<794&&canStand(P.x,P.y));
+P.x=1007;P.y=790;tryMove(0,80);assert.ok(P.y<794&&canStand(P.x,P.y),'long step must not tunnel through dock edge');
 for(const old of [[970,490],[970,560],[1007,808]]){P.x=old[0];P.y=old[1];P.vx=90;P.route={};unstick();assert.ok(canStand(P.x,P.y));assert.equal(P.route,null);assert.equal(P.vx,0);assert.equal(P.simX,P.x)}
 assert.ok(Math.hypot(NPCS.find(n=>n.x===1142).x-1090,NPCS.find(n=>n.x===1142).y-584)>40);
 assert.equal(ctx.api.placeAt(1090,500).id,'anchor','forge art must be a clickable entry');

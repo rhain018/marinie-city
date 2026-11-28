@@ -53,7 +53,7 @@ for (const {name,x,y} of Object.values(districts)) {
 // A cropped foreground silhouette and the full scene must sample the very same
 // test artwork. Reading even the first original HD tile would break occlusion.
 const calls = [];
-const image = {width:3072};
+const image = {width:3072,height:1728};
 const paint = {save(){},restore(){},drawImage:(...args)=>calls.push(args)};
 const region = vm.runInNewContext(between('function drawMapRegion(','const PTS=')+'\ndrawMapRegion',
   {cityEdition:{active:true,image},DPR:1,cam:{z:1.8},S0:1,MW:1536,MH:864});

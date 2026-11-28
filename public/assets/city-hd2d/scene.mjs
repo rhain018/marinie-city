@@ -11,9 +11,9 @@ export const districts = {
 };
 
 // Coordinates are in the 1536 × 864 gameplay space.
-const remakeVents = [[1210,4,-1],[1246,12,1],[1257,16,1]];
-const remakeLamps = [[75,152],[1139,356],[1155,348],[1175,360],[1408,343],[944,288],[463,269],[175,559],[452,558],[853,559],[1150,591],[1264,609]];
-const remakeEmission = [[921,473,121,28,1,.85],[1133,342,50,24,0,.45]];
+const remakeVents = [[1202,4,-1],[1222,10,1],[1233,14,1]];
+const remakeLamps = [[73,164],[468,279],[190,256],[950,289],[176,567],[446,572],[850,569],[978,627],[1145,612],[1255,612]];
+const remakeEmission = [[905,471,147,31,1,.85],[1117,319,62,28,0,.45]];
 const exhausts = [[1247,31,1],[1523,38,-1]];
 const dockLamps = [[171,766],[299,775],[975,752],[1263,608]];
 const waterLights = [[177,802],[292,815],[980,806],[1419,831]];
@@ -182,16 +182,21 @@ export function decodeHarborWater(packed, clip = new Path2D()) {
 }
 
 async function loadHarborWater() {
-  const response = await fetch(new URL('./harbor-water-v2.bin', import.meta.url));
+  const response = await fetch(new URL('./repair-water.bin', import.meta.url));
   if (!response.ok) throw new Error('Could not load the remake harbor water mask');
-  return decodeHarborWater(new Uint8Array(await response.arrayBuffer()));
+  const water = decodeHarborWater(new Uint8Array(await response.arrayBuffer()));
+  const floorResponse = await fetch(new URL('./repair-floor.bin', import.meta.url));
+  if (!floorResponse.ok) throw new Error('Could not load the repaired city floor');
+  water.floor = new Uint8Array(await floorResponse.arrayBuffer());
+  if (water.floor.length !== 384*216) throw new Error('Invalid repaired city floor');
+  return water;
 }
 
 export async function createCityEdition(prepareOccluder) {
   const [remake, previous, geometry, mesh, water] = await Promise.all([
-    loadPlate('./city-remake-v151.webp?v=151-alignment3'), loadPlate('./marinie-city.webp'), loadGeometry('./remake-foreground.json'), loadGeometry('./city-projection.json'), loadHarborWater()
+    loadPlate('./city-geometry-repair.png'), loadPlate('./marinie-city.webp'), loadGeometry('./repair-foreground.json'), loadGeometry('./city-repair-projection.json'), loadHarborWater()
   ]);
-  if (remake.naturalWidth < 3072 || remake.naturalWidth*9 !== remake.naturalHeight*16)
+  if (remake.naturalWidth < 1536 || Math.abs(remake.naturalWidth/remake.naturalHeight-16/9) > .003)
     throw new Error('Remade map has incompatible resolution');
   const previousPlate = finishRoofline(previous);
   const glow = makeGlow();

@@ -907,7 +907,7 @@ body.waking #dlg{z-index:70}body.waking #introCap{display:none}
         <label>Location<select id="cityDistrict" aria-label="Location"></select></label>
         <label>Lighting<select id="cityLight" aria-label="Lighting"><option value="0">Day</option><option value="1">Dusk</option><option value="2">Night</option></select></label>
         <label>Character<select id="cityHero" aria-label="Character"><option value="loki">Loki</option><option value="yhannie">Yhannie</option></select></label>
-        <label>Artwork<select id="cityArt" aria-label="Artwork"><option value="remake">HD-2D Remake</option><option value="previous">HD-2D v1.150</option><option value="original">Original</option></select></label>
+        <label>Artwork<select id="cityArt" aria-label="Artwork"><option value="remake">HD-2D Remake · Repaired</option><option value="previous">HD-2D v1.150</option><option value="original">Original</option></select></label>
       </div>
     </details>
   </div>
@@ -1529,10 +1529,10 @@ const boats=Object.entries(MAPA.sprites).map(([k,s],i)=>{const im=new Image();im
 const HD_TILES=[{"src": "assets/map-hd/0-0.webp", "x": 0.0, "y": 0.0, "w": 235.40669856459328, "h": 234.53389830508476}, {"src": "assets/map-hd/1-0.webp", "x": 234.9473684210526, "y": 0.0, "w": 235.63636363636363, "h": 234.53389830508476}, {"src": "assets/map-hd/2-0.webp", "x": 470.12440191387554, "y": 0.0, "w": 235.63636363636363, "h": 234.53389830508476}, {"src": "assets/map-hd/3-0.webp", "x": 705.3014354066986, "y": 0.0, "w": 235.63636363636363, "h": 234.53389830508476}, {"src": "assets/map-hd/4-0.webp", "x": 940.4784688995214, "y": 0.0, "w": 235.63636363636363, "h": 234.53389830508476}, {"src": "assets/map-hd/5-0.webp", "x": 1175.6555023923445, "y": 0.0, "w": 235.63636363636363, "h": 234.53389830508476}, {"src": "assets/map-hd/6-0.webp", "x": 1410.8325358851675, "y": 0.0, "w": 125.16746411483254, "h": 234.53389830508476}, {"src": "assets/map-hd/0-1.webp", "x": 0.0, "y": 234.07627118644066, "w": 235.40669856459328, "h": 234.7627118644068}, {"src": "assets/map-hd/1-1.webp", "x": 234.9473684210526, "y": 234.07627118644066, "w": 235.63636363636363, "h": 234.7627118644068}, {"src": "assets/map-hd/2-1.webp", "x": 470.12440191387554, "y": 234.07627118644066, "w": 235.63636363636363, "h": 234.7627118644068}, {"src": "assets/map-hd/3-1.webp", "x": 705.3014354066986, "y": 234.07627118644066, "w": 235.63636363636363, "h": 234.7627118644068}, {"src": "assets/map-hd/4-1.webp", "x": 940.4784688995214, "y": 234.07627118644066, "w": 235.63636363636363, "h": 234.7627118644068}, {"src": "assets/map-hd/5-1.webp", "x": 1175.6555023923445, "y": 234.07627118644066, "w": 235.63636363636363, "h": 234.7627118644068}, {"src": "assets/map-hd/6-1.webp", "x": 1410.8325358851675, "y": 234.07627118644066, "w": 125.16746411483254, "h": 234.7627118644068}, {"src": "assets/map-hd/0-2.webp", "x": 0.0, "y": 468.3813559322034, "w": 235.40669856459328, "h": 234.7627118644068}, {"src": "assets/map-hd/1-2.webp", "x": 234.9473684210526, "y": 468.3813559322034, "w": 235.63636363636363, "h": 234.7627118644068}, {"src": "assets/map-hd/2-2.webp", "x": 470.12440191387554, "y": 468.3813559322034, "w": 235.63636363636363, "h": 234.7627118644068}, {"src": "assets/map-hd/3-2.webp", "x": 705.3014354066986, "y": 468.3813559322034, "w": 235.63636363636363, "h": 234.7627118644068}, {"src": "assets/map-hd/4-2.webp", "x": 940.4784688995214, "y": 468.3813559322034, "w": 235.63636363636363, "h": 234.7627118644068}, {"src": "assets/map-hd/5-2.webp", "x": 1175.6555023923445, "y": 468.3813559322034, "w": 235.63636363636363, "h": 234.7627118644068}, {"src": "assets/map-hd/6-2.webp", "x": 1410.8325358851675, "y": 468.3813559322034, "w": 125.16746411483254, "h": 234.7627118644068}, {"src": "assets/map-hd/0-3.webp", "x": 0.0, "y": 702.6864406779662, "w": 235.40669856459328, "h": 161.31355932203388}, {"src": "assets/map-hd/1-3.webp", "x": 234.9473684210526, "y": 702.6864406779662, "w": 235.63636363636363, "h": 161.31355932203388}, {"src": "assets/map-hd/2-3.webp", "x": 470.12440191387554, "y": 702.6864406779662, "w": 235.63636363636363, "h": 161.31355932203388}, {"src": "assets/map-hd/3-3.webp", "x": 705.3014354066986, "y": 702.6864406779662, "w": 235.63636363636363, "h": 161.31355932203388}, {"src": "assets/map-hd/4-3.webp", "x": 940.4784688995214, "y": 702.6864406779662, "w": 235.63636363636363, "h": 161.31355932203388}, {"src": "assets/map-hd/5-3.webp", "x": 1175.6555023923445, "y": 702.6864406779662, "w": 235.63636363636363, "h": 161.31355932203388}, {"src": "assets/map-hd/6-3.webp", "x": 1410.8325358851675, "y": 702.6864406779662, "w": 125.16746411483254, "h": 161.31355932203388}].map(t=>({...t,im:null}));
 function drawMapRegion(g,x=0,y=0,w=MW,h=MH){
  if(cityEdition?.active){
-   const image=cityEdition.image, density=image.width/MW;
+   const image=cityEdition.image, density=image.width/MW, densityY=image.height/MH;
    g.save();
    g.imageSmoothingEnabled=S0*cam.z*DPR<density;
-   g.drawImage(image,x*density,y*density,w*density,h*density,x,y,w,h);
+   g.drawImage(image,x*density,y*densityY,w*density,h*densityY,x,y,w,h);
    g.restore();
    return;
  }
@@ -1723,7 +1723,12 @@ void main(){vec2 dev=devOf(gl_FragCoord.xy),uv=dev/uCv,px=vec2(uScale)/uCv;vec2 
 uniform sampler2D uAlb,uLM,uSpec,uWater;uniform float uT,uNight,uLod,uIndoor;uniform int uNE;uniform vec4 uE[24];uniform vec2 uEC[24];out vec4 o;
 void main(){vec2 dev=devOf(gl_FragCoord.xy),uv=dev/uCv;vec2 wp=worldOf(dev);ivec2 ip=ivec2(gl_FragCoord.xy);vec4 lm=texelFetch(uLM,ip,0);float w=lm.a;
   vec2 off=vec2(sin(wp.y*.32+uT*1.7)+.5*sin(wp.y*.11-uT*1.1+wp.x*.02),-cos(wp.x*.21+uT*1.3)*.35)*w*1.1/uView.zw;
-  vec2 moved=wp+off*uView.zw;float safeWater=texture(uWater,moved/uWorld).r;off*=step(.99,safeWater);
+  // Screen UV grows upward; world Y grows downward. Check the actual sampled shore.
+  vec2 moved=wp+vec2(off.x,-off.y)*uView.zw;
+  vec2 guard=max(vec2(2.),uView.zw/uCv*uScale);
+  float safeWater=min(texture(uWater,(moved-guard)/uWorld).r,texture(uWater,(moved+guard)/uWorld).r);
+  safeWater=min(safeWater,min(texture(uWater,(moved+vec2(guard.x,-guard.y))/uWorld).r,texture(uWater,(moved+vec2(-guard.x,guard.y))/uWorld).r));
+  off*=step(.99,safeWater)*step(.99,w);
   vec3 c=texelFetch(uAlb,clamp(ivec2((uv+off)*vec2(textureSize(uAlb,0))),ivec2(0),textureSize(uAlb,0)-1),0).rgb;vec3 col=c*lm.rgb+texelFetch(uSpec,ip,0).rgb*w;
   if(w>.3)col+=vec3(step(.985,hsh(floor(wp*.5)+floor(uT*3.)))*(1.-uNight)*.5);
   float sat=c.r-c.b;float warm=smoothstep(.72,.9,c.r)*smoothstep(.45,.7,c.g)*(1.-smoothstep(.3,.45,c.b))*smoothstep(.38,.55,sat);col+=c*warm*uNight*.35*(1.-uIndoor*.5);
@@ -1827,8 +1832,10 @@ void main(){ivec2 ip=clamp(ivec2(floor((gl_FragCoord.xy-uOff)/uScale)),ivec2(0),
       const harbor=indoor ? null : remakeHarborWater();
       if(harbor && !T.remakeWater)T.remakeWater=r8(harbor.pixels,harbor.width,harbor.height,gl.NEAREST);
       const waterTexture=harbor ? T.remakeWater : T.water;
+      if(harbor?.floor && !T.remakeGrid)T.remakeGrid=r8(harbor.floor,384,216,gl.NEAREST);
+      const gridTexture=harbor?.floor ? T.remakeGrid : T.grid;
       /* 3+4 light map */
-      bind(RT.lm);let u=use(PR.lm,{uAlb:T.alb,uGrid:T.grid,uWater:waterTexture},view,world);gl.uniform1f(u.uT,t);gl.uniform1f(u.uBump,2.2);gl.uniform1f(u.uCloud,Q.clouds&&!indoor?1:0);gl.uniform1f(u.uIndoor,indoor?1:0);gl.uniform1f(u.uShadow,GFX.shadow);gl.uniform1f(u.uLight,GFX.light);gl.uniform1f(u.uLod,lod);
+      bind(RT.lm);let u=use(PR.lm,{uAlb:T.alb,uGrid:gridTexture,uWater:waterTexture},view,world);gl.uniform1f(u.uT,t);gl.uniform1f(u.uBump,2.2);gl.uniform1f(u.uCloud,Q.clouds&&!indoor?1:0);gl.uniform1f(u.uIndoor,indoor?1:0);gl.uniform1f(u.uShadow,GFX.shadow);gl.uniform1f(u.uLight,GFX.light);gl.uniform1f(u.uLod,lod);
       gl.uniform1f(u.uSunLen,0);gl.uniform2fv(u.uSunTo,[-sd[0],-sd[1]]);
       gl.uniform1i(u.uN,L.length);gl.uniform1i(u.uNS,indoor?0:(Q.glShadow||0));gl.uniform4fv(u.uL,LA);gl.uniform4fv(u.uLC,LC);gl.uniform3fv(u.uAmb,amb);gl.uniform3fv(u.uSunC,sunC);gl.uniform3fv(u.uSunD,[-sd[0],-sd[1],.9]);draw();
       bind(RT.sc);u=use(PR.comp,{uAlb:T.alb,uLM:RT.lm.t[0],uSpec:RT.lm.t[1],uWater:waterTexture},view,world);gl.uniform1f(u.uT,t);gl.uniform1f(u.uNight,indoor?0:night*(1-LIGHTS_OUT));gl.uniform1f(u.uLod,lod);gl.uniform1f(u.uIndoor,indoor?1:0);const er=new Float32Array(96),ec=new Float32Array(48);const areas=cityEdition?.remade?cityEdition.emission:TOWN_EMISSION;areas.forEach((e,i)=>{er.set(e.slice(0,4),i*4);ec.set(e.slice(4,6),i*2)});gl.uniform1i(u.uNE,indoor?0:areas.length);gl.uniform4fv(u.uE,er);gl.uniform2fv(u.uEC,ec);draw();
@@ -1962,7 +1969,7 @@ function drawClassicWeather(){if(ROOM||mode!=='play')return;const weather=effect
 function updateCalendar(){document.getElementById('calendarDay').textContent=calendarLabel(FLAGS);document.getElementById('calendarPhase').textContent=TODS[todI]+(FLAGS.frag?' · '+({clear:'Clear',rain:'Rain',fog:'Fog'}[effectiveWeather()]):'');bTime.setAttribute('aria-label','Advance time: '+calendarLabel(FLAGS)+', '+TODS[todI]);bTime.title='Day → Sunset → Night → Next day'}
 function setGameTime(next,{morning=false,announce=true}={}){const newDay=(todI===2&&next===0)||morning;if(newDay){FLAGS.days=elapsedDays(FLAGS)+1;RSTATE.showered=false;RSTATE.plant=false}todI=next;updateCalendar();if(newDay&&announce)hint(calendarLabel(FLAGS)+' — A new day begins.',3600)}
 bTime.onclick=()=>{if(mode!=='play'||talking)return;setGameTime((todI+1)%3);sfx('move');saveGame(true)};
-document.getElementById('bZoom').onclick=()=>{zoomI=(zoomI+1)%ZOOMS.length;sfx('move');if(ROOM&&ZOOMS[zoomI]==='full')zoomI=0;if(isFull()){P.route=null;marker=null;J.id=null;J.x=J.y=0;P.act='idle';document.body.classList.add('overview');hint('Map view · tap the zoom button to play again',3000)}else document.body.classList.remove('overview')};
+document.getElementById('bZoom').onclick=()=>{zoomI=(zoomI+1)%ZOOMS.length;sfx('move');if(ROOM&&ZOOMS[zoomI]==='full')zoomI=0;if(isFull()){P.route=null;marker=null;clearTouchInput();P.act='idle';document.body.classList.add('overview');hint('Map view · tap the zoom button to play again',3000)}else document.body.classList.remove('overview')};
 function doJump(){if(mode!=='play'||talking||SHW||!canPose('jump')||(P.pose&&P.pose.act==='jump'))return false;heroPose('jump',0.62);P.jumpLand=true;sfx('tap');const jb=document.getElementById('jumpBtn');jb.classList.add('hop');setTimeout(()=>jb.classList.remove('hop'),620);if(CAT.init&&!CAT.off)CAT.hopT=0.5;return true}
 document.getElementById('jumpBtn').addEventListener('pointerdown',e=>{e.preventDefault();e.stopPropagation();startAudio();doJump()});
 document.getElementById('jumpBtn').addEventListener('click',e=>{e.stopPropagation();if(e.detail===0)doJump()});
@@ -2027,7 +2034,7 @@ function applyAudioVals(st){if(!AC||!musBus)return;musBus.gain.setTargetAtTime(s
 let lastRes=SET.res;
 function livePreview(){applyAudioVals(DRAFT);applyQuality(DRAFT.quality);if(DRAFT.res!==lastRes){lastRes=DRAFT.res;const k=SET.res;SET.res=DRAFT.res;resize();SET.res=k}}
 function applyAll(st){applyAudioVals(st);applyQuality(st.quality);lastRes=st.res;resize();setupHud()}
-function openSettings(tab){if(talking||mode==='intro')return;startAudio();sfx('select');prevMode=mode;mode='settings';P.route=null;marker=null;J.id=null;J.x=J.y=0;DRAFT={...SET};const nameSave=document.body.classList.contains('playing')?null:loadSave();if(nameSave){DRAFT.name=nameSave.playerName;DRAFT.nameAuto=nameSave.nameAuto;DRAFT.nameHero=nameSave.hero}else if(P.hero&&document.body.classList.contains('playing')){DRAFT.name=heroName();DRAFT.nameAuto=P.nameAuto!==false;DRAFT.nameHero=P.hero}
+function openSettings(tab){if(talking||mode==='intro')return;startAudio();sfx('select');prevMode=mode;mode='settings';P.route=null;marker=null;clearTouchInput();DRAFT={...SET};const nameSave=document.body.classList.contains('playing')?null:loadSave();if(nameSave){DRAFT.name=nameSave.playerName;DRAFT.nameAuto=nameSave.nameAuto;DRAFT.nameHero=nameSave.hero}else if(P.hero&&document.body.classList.contains('playing')){DRAFT.name=heroName();DRAFT.nameAuto=P.nameAuto!==false;DRAFT.nameHero=P.hero}
   document.body.classList.add('settings');setWrap.hidden=false;renderSet();selectTab(tab||'general',false);document.getElementById('spClose').focus({preventScroll:true})}
 function closeSettings(keep){if(GM.reopen){GM.reopen=false;setTimeout(()=>{if(mode!=='settings')gmOpen(GM.sec||'load',document.body.classList.contains('playing')?'play':'title')},60)}if(keep===false&&JSON.stringify(DRAFT)!==JSON.stringify(SET)){applyAll(SET)}sfx('tap');setWrap.hidden=true;document.body.classList.remove('settings');mode=prevMode==='settings'?'play':prevMode;if(document.activeElement)document.activeElement.blur()}
 function selectTab(t,smooth=true){document.querySelectorAll('.tab').forEach(b=>b.setAttribute('aria-selected',b.dataset.t===t));const sec=spScroll.querySelector(`[data-s="${t}"]`);if(sec){spScroll.style.scrollBehavior=smooth?'smooth':'auto';spScroll.scrollTop=sec.offsetTop-spScroll.offsetTop-4;spScroll.style.scrollBehavior=''}tabLock=performance.now()+600}
@@ -2148,7 +2155,7 @@ function gmBuild(){if(GM.el)return;const el=document.createElement('div');el.id=
   el.addEventListener('pointerdown',e=>e.stopPropagation());
   addEventListener('keydown',e=>{if(!GM.el||GM.el.hidden||!cfmEl.hidden)return;if(e.key==='Escape'){e.preventDefault();e.stopImmediatePropagation();gmClose()}else if((GM.sec==='save'||GM.sec==='load')&&(e.key==='ArrowLeft'||e.key==='ArrowRight')){const i=PAGES.indexOf(GM.page);gmPage(PAGES[(i+(e.key==='ArrowRight'?1:-1)+PAGES.length)%PAGES.length])}},true)}
 function gmOpen(sec,from){if(loadingSave)return;gmBuild();startAudio();sfx('select');GM.from=from||(document.body.classList.contains('playing')?'play':'title');
-  if(GM.from==='play'){GM.prevMode=mode;mode='gmenu';P.route=null;marker=null;J.id=null;J.x=J.y=0;GM.thumb=null;captureThumb(th=>{GM.thumb=th})}
+  if(GM.from==='play'){GM.prevMode=mode;mode='gmenu';P.route=null;marker=null;clearTouchInput();GM.thumb=null;captureThumb(th=>{GM.thumb=th})}
   GM.el.classList.toggle('fromTitle',GM.from==='title');GM.el.hidden=false;document.body.classList.add('gmopen');GM.page=readJSON('marinie.gmPage','1');if(!PAGES.includes(GM.page))GM.page='1';gmShow(sec)}
 function gmClose(silent){if(!GM.el||GM.el.hidden)return;if(!silent)sfx('tap');GM.el.hidden=true;document.body.classList.remove('gmopen');if(GM.from==='play'&&mode==='gmenu')mode=GM.prevMode==='gmenu'?'play':GM.prevMode}
 function gmNav(s){if(s==='return'){gmClose();return}
@@ -2303,7 +2310,7 @@ function updateStats(){document.getElementById('hpB').style.width=Math.max(0,Mat
   const un=MAIL.filter(m=>!m.claimed).length;const b=document.getElementById('mailBadge');b.hidden=!un;b.textContent=un}
 ['qBagI','bagEmb'].forEach(i=>document.getElementById(i).src=ICONS.hdr_bag);['qShopI','shopEmb','mailEmb'].forEach(i=>document.getElementById(i).src=ICONS.hdr_shop);
 let panelOpen=null;
-function openPanel(id){if(talking||mode==='intro'||mode==='settings')return;if(panelOpen)closePanel(true);startAudio();sfx('select');P.route=null;marker=null;J.id=null;J.x=J.y=0;prevPanelMode=mode;mode='panel';panelOpen=id;document.body.classList.add('panel');document.getElementById(id).hidden=false;
+function openPanel(id){if(talking||mode==='intro'||mode==='settings')return;if(panelOpen)closePanel(true);startAudio();sfx('select');P.route=null;marker=null;clearTouchInput();prevPanelMode=mode;mode='panel';panelOpen=id;document.body.classList.add('panel');document.getElementById(id).hidden=false;
   const x=document.querySelector('#'+id+' .gp-x');x&&x.focus({preventScroll:true})}
 let prevPanelMode='play';
 function closePanel(quiet){if(!panelOpen)return;document.getElementById(panelOpen).hidden=true;panelOpen=null;document.body.classList.remove('panel');if(!quiet){sfx('tap');mode='play';saveGame()}}
@@ -2493,7 +2500,7 @@ function joyIdle(){joy.classList.remove('on');joy.classList.add('idle');joy.styl
 joyIdle();
 const TP={id:null,x:0,y:0,t:0};
 function joyStart(id,x,y,anchored=false){J.id=id;J.anchored=anchored;J.ox=x;J.oy=y;J.x=J.y=0;joy.classList.add('on');joy.classList.remove('idle');joy.style.left=x+'px';joy.style.top=y+'px';knob.style.transform='';P.route=null;marker=null}
-function padDown(e,fromJoy=false){if(mode!=='play')return;if(talking){advance();return}if(TP.id!==null||J.id!==null)return;TP.id=e.pointerId;TP.x=e.clientX;TP.y=e.clientY;TP.t=performance.now();TP.lp=false;try{(fromJoy?joy:pad).setPointerCapture(e.pointerId)}catch{}
+function padDown(e,fromJoy=false){if(mode!=='play'||e.button!==0)return;if(talking){advance();return}if(TP.id!==null||J.id!==null)return;TP.id=e.pointerId;TP.x=e.clientX;TP.y=e.clientY;TP.t=performance.now();TP.lp=false;try{(fromJoy?joy:pad).setPointerCapture(e.pointerId)}catch{}
   if(fromJoy){joyStart(e.pointerId,parseFloat(joy.style.left),parseFloat(joy.style.top),true);padMove(e);e.preventDefault();return}
   const jx=parseFloat(joy.style.left),jy=parseFloat(joy.style.top);if(Number.isFinite(jx)&&Number.isFinite(jy)&&Math.hypot(e.clientX-jx,e.clientY-jy)<joy.offsetWidth*.62){joyStart(e.pointerId,jx,jy,true);padMove(e);e.preventDefault();return}
   const pid=e.pointerId;clearTimeout(TP.lt);TP.lt=setTimeout(()=>{if(TP.id===pid&&J.id===null&&mode==='play'&&!talking)longPress(TP.x,TP.y)},450)}
@@ -2505,9 +2512,13 @@ function padEnd(e){if(e.pointerId===TP.id){clearTimeout(TP.lt);const wasJoy=J.id
   if(e.pointerId===J.id){J.id=null;J.anchored=false;J.x=J.y=0;joyIdle()}}
 pad.addEventListener('pointerup',padEnd);joy.addEventListener('pointerup',padEnd);
 for(const surface of [pad,joy])surface.addEventListener('lostpointercapture',padEnd);
-function clearTouchInput(){clearTimeout(TP.lt);TP.id=null;TP.lp=false;J.id=null;J.anchored=false;J.x=J.y=0;joyIdle()}
+function clearTouchInput(){
+  const id=TP.id??J.id;
+  clearTimeout(TP.lt);TP.id=null;TP.lp=false;J.id=null;J.anchored=false;J.x=J.y=0;joyIdle();
+  for(const surface of [pad,joy])try{if(id!==null&&surface.hasPointerCapture(id))surface.releasePointerCapture(id)}catch{}
+}
 addEventListener('blur',clearTouchInput);
-document.addEventListener('visibilitychange',()=>{if(document.hidden)clearTouchInput()});
+document.addEventListener('visibilitychange',()=>{if(document.hidden){clearTouchInput();for(const k in keys)keys[k]=false}});
 let SHOWP=null;
 function showOutline(p,dur){if(!p||!p.r||p.far||p.clue||p.room)return;SHOWP={p,t0:T,until:dur==null?Infinity:T+dur}}
 function longPress(sx,sy){if(ROOM)return;const s=S0*cam.z,[wx,wy]=cityPosition(cam.x+(sx-VW/2)/s,cam.y+(sy-VH/2)/s,true);const p=placeAt(wx,wy);if(!p||!p.r||p.far||p.clue)return;TP.lp=true;J.id=null;showOutline(p,null);tag={x:(p.r[0]+p.r[2])/2,y:p.r[1]+16,txt:p.who,t:0};sfx('select');if(navigator.vibrate)try{navigator.vibrate(15)}catch(e){}}pad.addEventListener('pointercancel',padEnd);joy.addEventListener('pointercancel',padEnd);
@@ -2530,7 +2541,7 @@ const dlg=document.getElementById('dlg'),dTxt=document.getElementById('dTxt'),dO
 let dq=[],dFull='',dShown=0,dTimer=null,dOptsPending=null;
 let dOnClose=null;
 function say(who,lines,opts){sayEnt(lines.map(t=>({name:who,text:t})),opts)}
-function sayEnt(ents,opts,onClose){talking=true;document.body.classList.add('talking');dlg.hidden=false;dq=ents.slice();dOptsPending=opts||null;dOnClose=onClose||null;nextLine()}
+function sayEnt(ents,opts,onClose){clearTouchInput();talking=true;document.body.classList.add('talking');dlg.hidden=false;dq=ents.slice();dOptsPending=opts||null;dOnClose=onClose||null;nextLine()}
 // Portraits from the new character cards use a navy matte. Key only the
 // border-connected matte during rendering; enclosed clothing shadows stay intact.
 const portraitRenderCache=new Map();
@@ -4814,7 +4825,7 @@ let splSkipN=0;function frame(now){if(tideborn.open||mapTestDialog.open||sprite2
   else if(mode==='title'){cam.z=lerp(cam.z,1.35,0.05);cam.x=768+Math.sin(T*0.05)*260;cam.y=512+Math.cos(T*0.04)*130;clampCam(cam)}
   else if(CINE){updateCine(dt)}
   else{updatePlayer(dt);updateCat(dt);const tz=ROOM?(SHW?1.55:1.12)*GFX.zoom:isFull()?zoomZ():zoomZ()*GFX.zoom;cam.z=lerp(cam.z,tz,1-Math.exp(-dt*4));const lx=P.act==='run'?({left:-30,right:30}[P.dir]||0):0,ly=P.act==='run'?({up:-20,down:20}[P.dir]||0):0;const k=1-Math.exp(-dt*6);if(isFull()){cam.x=lerp(cam.x,MW/2,k);cam.y=lerp(cam.y,MH/2,k);clampCam(cam)}else{const r=renderPos();P.lax=lerp(P.lax||0,(P.avx||0)*.3,1-Math.exp(-dt*3));P.lay=lerp(P.lay||0,(P.avy||0)*.22,1-Math.exp(-dt*3));
-    const tx=r[0]+P.lax,ty=(SHW?r[1]-34:r[1]-12)+P.lay;[cam.x,cam.vx]=sdamp(cam.x,tx,cam.vx||0,.22,dt);[cam.y,cam.vy]=sdamp(cam.y,ty,cam.vy||0,.22,dt);clampCam(cam)}}
+    const target=cityPosition(r[0]+P.lax,(SHW?r[1]-34:r[1]-12)+P.lay),tx=target[0],ty=target[1];[cam.x,cam.vx]=sdamp(cam.x,tx,cam.vx||0,.22,dt);[cam.y,cam.vy]=sdamp(cam.y,ty,cam.vy||0,.22,dt);clampCam(cam)}}
   try{draw(dt)}catch(e){console.warn(e)}requestAnimationFrame(frame)}
 function draw(dt){const hx=P.x,hy=P.y;if(mode!=='title'&&mode!=='select'){const r=renderPos();P.x=r[0];P.y=r[1]}const o=GLR.ok?GLR.snap((ROOM?ROOM.S0:S0)*cam.z*DPR):null;try{draw0(dt);takeThumb()}finally{if(o){cam.x=o[0];cam.y=o[1]}P.x=hx;P.y=hy}}
 function draw0(dt){if(ROOM&&mode!=='title'&&mode!=='select'){drawRoom(dt);return}const s=S0*cam.z*DPR;ctx.setTransform(1,0,0,1,0,0);ctx.imageSmoothingEnabled=false;ctx.fillStyle='#0b1626';ctx.fillRect(0,0,cv.width,cv.height);
@@ -4878,7 +4889,7 @@ function drawPlaceOutlines(){if(mode!=='play'&&mode!=='intro')return;const full=
     ctx.save();ctx.fillStyle='#ffd25a';ctx.strokeStyle='#1e1406';const r=6*px*(1+0.25*Math.sin(T*5));ctx.lineWidth=2*px;ctx.beginPath();ctx.arc(P.x,P.y-10,r,0,6.29);ctx.fill();ctx.stroke();ctx.restore()}
   let p=null,al=0;
   if(SHOWP){const left=SHOWP.until-T;if(left<=0&&!(marker&&marker.label===SHOWP.p.who))SHOWP=null;else{p=SHOWP.p;al=Math.min(1,(T-SHOWP.t0)/0.15)*(marker&&marker.label===p.who?1:Math.min(1,left/0.4))}}
-  if(!p||al<=0)return;const[x0,y0,x1,y1]=p.r,w=x1-x0,h=y1-y0,pulse=0.5+0.5*Math.sin(T*6),grow=(1-Math.min(1,(T-SHOWP.t0)/0.25))*10;
+  if(!p||al<=0)return;const a=cityPosition(p.r[0],p.r[1]),b=cityPosition(p.r[2],p.r[3]);const[x0,y0,x1,y1]=[a[0],a[1],b[0],b[1]],w=x1-x0,h=y1-y0,pulse=0.5+0.5*Math.sin(T*6),grow=(1-Math.min(1,(T-SHOWP.t0)/0.25))*10;
   ctx.save();ctx.globalAlpha=al;const X=x0-grow,Y=y0-grow,W2=w+grow*2,H2=h+grow*2;
   ctx.fillStyle=`rgba(255,220,110,${0.08+0.05*pulse})`;rrect(ctx,X,Y,W2,H2,6);ctx.fill();
   ctx.shadowColor='rgba(255,210,90,.95)';ctx.shadowBlur=16;ctx.strokeStyle=`rgba(255,226,120,${0.8+0.2*pulse})`;ctx.lineWidth=3*px;rrect(ctx,X,Y,W2,H2,6);ctx.stroke();ctx.shadowBlur=0;
@@ -4925,7 +4936,7 @@ function drawWindowLights(dt,light){return;
     if(Math.random()<dt*0.12){const w=WINS[(Math.random()*WINS.length)|0];w.on=!w.on}}}
 
 function bubble(x,y,txt,al){ctx.globalAlpha=al;ctx.font='700 8px "Pixelify Sans",sans-serif';const w=ctx.measureText(txt).width+12;px(x-w/2-1,y-8,w+2,14,'#1e1406');px(x-w/2,y-7,w,12,'#f4efe2');px(x-2,y+5,4,2,'#1e1406');ctx.fillStyle='#1e1406';ctx.textAlign='center';ctx.textBaseline='middle';ctx.fillText(txt,x,y-.5);ctx.globalAlpha=1}
-function drawTagThought(){if(tag){const al=tag.t<1.6?1:Math.max(0,1-(tag.t-1.6)/0.4);if(al<=0)tag=null;else{ctx.font='700 9px "Pixelify Sans",sans-serif';const w=ctx.measureText(tag.txt).width+14,x=tag.x,y=tag.y-Math.min(1,tag.t*4)*6;ctx.globalAlpha=al;px(x-w/2-1,y-9,w+2,16,'#1e1406');px(x-w/2,y-8,w,14,'rgba(242,181,68,.95)');ctx.fillStyle='#1e1406';ctx.textAlign='center';ctx.textBaseline='middle';ctx.fillText(tag.txt,x,y-1);ctx.globalAlpha=1}}
+function drawTagThought(){if(tag){const al=tag.t<1.6?1:Math.max(0,1-(tag.t-1.6)/0.4);if(al<=0)tag=null;else{ctx.font='700 9px "Pixelify Sans",sans-serif';const w=ctx.measureText(tag.txt).width+14,position=cityPosition(tag.x,tag.y),x=position[0],y=position[1]-Math.min(1,tag.t*4)*6;ctx.globalAlpha=al;px(x-w/2-1,y-9,w+2,16,'#1e1406');px(x-w/2,y-8,w,14,'rgba(242,181,68,.95)');ctx.fillStyle='#1e1406';ctx.textAlign='center';ctx.textBaseline='middle';ctx.fillText(tag.txt,x,y-1);ctx.globalAlpha=1}}
   if(thoughtT>0&&P.alpha>0){const [x,y]=cityPosition(P.x,P.y);bubble(x,y-HERO_H-12,thoughtTxt,Math.min(1,thoughtT*2))}}
 function drawHomeMarker(){const [x,feet]=cityPosition(HOME.x,HOME.y),y=feet-58+Math.sin(T*3)*2.5;
   px(x-13,y-9,26,15,'#1e1406');px(x-12,y-8,24,13,'#f2b544');px(x-2,y+6,4,3,'#1e1406');px(x-1,y+6,2,2,'#f2b544');
@@ -4948,6 +4959,28 @@ function unlockAudio(ctx){try{if(navigator.audioSession)navigator.audioSession.t
     const p=SILENT_EL.play();if(p&&p.catch)p.catch(()=>{})}catch(e){}
   if(ctx){try{if(ctx.state!=='running')ctx.resume();const s=ctx.createBufferSource();s.buffer=ctx.createBuffer(1,1,22050);s.connect(ctx.destination);s.start(0)}catch(e){}}}
 ['touchend','click','keydown'].forEach(ev=>addEventListener(ev,()=>{const c=AC||window.SPLASH_AC;if(c&&c.state!=='running')unlockAudio(c)},true));
+/* City-map recording: shares music volume, dialogue ducking and combat mute. */
+let cityMapBuffer=null,cityMapSource=null,cityMapGain=null;
+function loadCityMapMusic(){
+ fetch('/assets/audio/where-the-ocean-remembers.mp3')
+  .then(response=>{if(!response.ok)throw new Error('City music unavailable');return response.arrayBuffer()})
+  .then(bytes=>AC.decodeAudioData(bytes))
+  .then(buffer=>{cityMapBuffer=buffer})
+  .catch(()=>{/* Keep the original harbor score when the recording cannot load. */});
+}
+function updateCityMapMusic(now){
+ const active=mode==='play'&&!ROOM;
+ if(!cityMapBuffer)return false;
+ if(active&&!cityMapSource){
+  cityMapGain=AC.createGain();cityMapGain.gain.value=0;
+  cityMapSource=AC.createBufferSource();cityMapSource.buffer=cityMapBuffer;
+  cityMapSource.loop=true;
+  cityMapSource.connect(cityMapGain).connect(musBus);cityMapSource.start();
+ }
+ if(cityMapGain)cityMapGain.gain.setTargetAtTime(active?.65:0,now,.25);
+ return active;
+}
+
 function startAudio(){if(AC){if(AC.state!=='running')unlockAudio(AC);return}try{AC=window.SPLASH_AC||new(window.AudioContext||window.webkitAudioContext)();if(AC.state!=='running')AC.resume()}catch(e){return}
   master=AC.createGain();master.gain.value=0;const comp=AC.createDynamicsCompressor();comp.threshold.value=-16;comp.ratio.value=3;master.connect(comp).connect(AC.destination);master.gain.linearRampToValueAtTime(0.9,AC.currentTime+2.5);
   musFilt=AC.createBiquadFilter();musFilt.type='lowpass';musFilt.frequency.value=16000;musFilt.connect(master);
@@ -4963,7 +4996,7 @@ function startAudio(){if(AC){if(AC.state!=='running')unlockAudio(AC);return}try{
   // ocean waves bed
   const ns=AC.createBufferSource();ns.buffer=nb;ns.loop=true;const nf=AC.createBiquadFilter();nf.type='lowpass';nf.frequency.value=560;const ng=AC.createGain();ng.gain.value=0.17;const lfo=AC.createOscillator();lfo.frequency.value=0.11;const lg=AC.createGain();lg.gain.value=0.12;lfo.connect(lg).connect(ng.gain);ns.connect(nf).connect(ng).connect(sfxBus);ns.start();lfo.start();
   const ns2=AC.createBufferSource();ns2.buffer=WHITE;ns2.loop=true;const hf=AC.createBiquadFilter();hf.type='bandpass';hf.frequency.value=2400;hf.Q.value=0.6;const hg=AC.createGain();hg.gain.value=0.012;const lfo2=AC.createOscillator();lfo2.frequency.value=0.11;const lg2=AC.createGain();lg2.gain.value=0.01;lfo2.connect(lg2).connect(hg.gain);ns2.connect(hf).connect(hg).connect(sfxBus);ns2.start();lfo2.start();
-  nextTime=AC.currentTime+0.25;step=0;setInterval(sched,25)}
+  loadCityMapMusic();nextTime=AC.currentTime+0.25;step=0;setInterval(sched,25)}
 
 /* Original seaside waltzes: airy flute, acoustic arpeggios, piano and soft strings.
    Six eighth-note pulses per bar; a complete 16-bar phrase loops without a silent gap. */
@@ -5068,6 +5101,7 @@ function sched(){
  communityAmbience(now);
  if(musDuck)musDuck.gain.setTargetAtTime(talking?.30:1,now,talking?.18:.7);
  if(musFilt){const target=todI===2?6800:todI===1?10500:14000;musFilt.frequency.setTargetAtTime(target*(ROOM?.65:1),now,.7)}
+ if(updateCityMapMusic(now)){nextTime=now+.2;return;}
  // Recover from a delayed mobile timer without scheduling a burst of stale notes.
  if(nextTime<now-.25)nextTime=now+.04;
  const notePositions=[0,3,5,8];
@@ -5141,7 +5175,7 @@ async function startCityMapTest() {
   status.hidden = false;
   settings.inert = true;
   try {
-    const {createCityEdition, districts} = await import('/assets/city-hd2d/scene.mjs?v=151-alignment3');
+    const {createCityEdition, districts} = await import('/assets/city-hd2d/scene.mjs?v=geometry-repair1');
     const [edition] = await Promise.all([createCityEdition(prepareOccluder), base.decode(), ATLAS.loki.decode(), ATLAS.yhannie.decode()]);
     cityEdition = edition;
     const district = document.getElementById('cityDistrict');
@@ -5152,12 +5186,12 @@ async function startCityMapTest() {
     function setOverview(on) {
       P.route = null;
       marker = null;
-      J.id = null;
-      J.x = J.y = 0;
+      clearTouchInput();
       zoomI = on ? ZOOMS.indexOf('full') : 1;
       cam.z = zoomZ();
-      cam.x = on ? MW/2 : P.x;
-      cam.y = on ? MH/2 : P.y;
+      const focus = cityPosition(P.x,P.y);
+      cam.x = on ? MW/2 : focus[0];
+      cam.y = on ? MH/2 : focus[1];
       cam.vx = cam.vy = 0;
       clampCam(cam);
       scale.setAttribute('aria-pressed', String(on));
